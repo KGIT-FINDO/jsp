@@ -76,8 +76,6 @@ public class SignInImpl implements SignIn {
     }
 
 
-
-
     @Override
     public void save() {
         //나중에 회원정보를 DB에 넘길때 사용할 메서드임.
