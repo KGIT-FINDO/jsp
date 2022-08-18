@@ -1,0 +1,93 @@
+body {
+    width: 100vw;
+    height: 100vh; 
+    margin: 0px;
+
+}
+
+body div {
+    border:1px solid pink;
+    margin: 4px;
+    padding: 6px;
+
+}
+
+#wrapper {
+    width: 60%;
+    margin: auto;
+    font-size: 0.6em;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around
+
+}
+
+.login {
+    text-align: center;
+
+}
+
+.stock_price {
+    text-align: center;
+}
+
+.community {
+    text-align: center;
+
+}
+
+.footer {
+    font-size: 0.4em;
+
+}
+
+.footer a {
+    text-decoration: none;
+
+}
+
+.footer li {
+    list-style: none;
+
+}
+
+.footer_top {
+    display: flex;
+    justify-content: space-around;
+    
+    
+
+}
+
+
+
+.footer_middle_top {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.4em;
+}
+
+.footer_middle_top li {
+    font-size: 0.4em;
+
+}
+
+.footer_bottom {
+    display: flex;
+    justify-content: right;
+    
+
+}
+
+.footer_bottom li {
+    margin: 4px;
+    
+
+}
