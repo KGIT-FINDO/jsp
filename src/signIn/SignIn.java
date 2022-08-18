@@ -1,4 +1,8 @@
 package signIn;
 
-public class SignIn {
+public interface SignIn {
+    public void save();
+    public boolean checkId();
+
+
 }
