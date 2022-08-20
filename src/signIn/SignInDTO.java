@@ -1,6 +1,6 @@
 package signIn;
 
-public class SignInImpl implements SignIn {
+public class SignInDTO implements SignIn {
     private String id;
     private String password;
     private String name;
@@ -9,7 +9,7 @@ public class SignInImpl implements SignIn {
     private String email;
     private String phoneNum;
 
-    public SignInImpl(String id, String password, String name, String birth, String gender, String email, String phoneNum){
+    public SignInDTO(String id, String password, String name, String birth, String gender, String email, String phoneNum){
         this.id = id;
         this.password = password;
         this.name = name;
