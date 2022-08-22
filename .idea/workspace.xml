@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f56adae9-30c8-4715-9a17-541c0af5eb7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_simple_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stockAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unixTime/MillToDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stock/StockInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jsp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp/stockAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stockAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stock/stockAPI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +79,7 @@
   </component>
   <component name="RunManager">
     <configuration name="stockAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stockAPI" />
+      <option name="MAIN_CLASS_NAME" value="stock.stockAPI" />
       <module name="jsp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,7 +103,7 @@
       <workItem from="1660811102228" duration="512000" />
       <workItem from="1660822650891" duration="5028000" />
       <workItem from="1660979393679" duration="4213000" />
-      <workItem from="1661149240532" duration="3828000" />
+      <workItem from="1661149240532" duration="6377000" />
     </task>
     <servers />
   </component>

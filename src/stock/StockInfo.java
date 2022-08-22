@@ -1,3 +1,4 @@
+package stock;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -11,13 +12,12 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
-public class stockAPI  {
-    public static  void main(String[] args) throws ParseException, IOException {
-
+public class StockInfo {
+    public JSONObject getStock(String stockCode)throws ParseException, IOException{
         String BaseUrl = "https://invest.zum.com/api/domestic/stock/";
         String testCode = "010660";
-        String StockCode = "005930";
-        URL url = new URL(BaseUrl + testCode);
+        String samsung = "005930";
+        URL url = new URL(BaseUrl + samsung);
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
         JSONObject result = null;
         StringBuilder sb = new StringBuilder();
@@ -97,7 +97,7 @@ public class stockAPI  {
         }
 //우선 메인 메소드에 종목 불러오는지만 콘솔창에 뜨도록 해둠
         //향후 따로 메소드와 클래스 분리핼 예정
+        return (JSONObject) array.get(1);
 
     }
-
 }
