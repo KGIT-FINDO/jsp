@@ -95,7 +95,8 @@ public class stockAPI  {
             System.out.print(price);
 
         }
-
+//우선 메인 메소드에 종목 불러오는지만 콘솔창에 뜨도록 해둠
+        //향후 따로 메소드와 클래스 분리핼 예정
 
     }
 
