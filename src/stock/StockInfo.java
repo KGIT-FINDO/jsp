@@ -12,12 +12,14 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+
 public class StockInfo {
     public JSONObject getStock(String stockCode)throws ParseException, IOException{
         String BaseUrl = "https://invest.zum.com/api/domestic/stock/";
-        String testCode = "010660";
-        String samsung = "005930";
-        URL url = new URL(BaseUrl + samsung);
+        String code = stockCode;
+        URL url = new URL(BaseUrl + code);
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
         JSONObject result = null;
         StringBuilder sb = new StringBuilder();
@@ -44,7 +46,7 @@ public class StockInfo {
         result = (JSONObject) new JSONParser().parse(sb.toString());
         StringBuilder out = new StringBuilder();
         JSONObject chart= (JSONObject) result.get("chart");
-        JSONObject yearly = (JSONObject) chart.get("MONTHLY");
+        JSONObject yearly = (JSONObject) chart.get("");
 //        JSONObject yearly = (JSONObject) chart.get("DAILY"); 당일 하루치 분당 데이터 가져옴
         //JSONObject yearly = (JSONObject) chart.get("YEARLY"); 1년치 데이터 1일간격으로 데이터 가져옴
         //JSONObject yearly = (JSONObject) chart.get("MONTHLY"); 한달간 데이터 1인간격으로 가져옴.
@@ -59,45 +61,39 @@ public class StockInfo {
 
         JSONObject tmp;
         MillToDate millToDate = new MillToDate();
-        ArrayList<String> date = new ArrayList<>();
-        ArrayList<String> price = new ArrayList<>();
+//        ArrayList<String> date = new ArrayList<>();
+//        ArrayList<String> price = new ArrayList<>();
+        LinkedHashMap<String, String> stockDatePrice = new LinkedHashMap<>();
+
         for(int i=0; i<array.size(); i++) {
             tmp = (JSONObject) array.get(i);
             out.append("tradeVolume("+i+") : "+ tmp.get("tradeVolume") +"\n");
             out.append("price("+i+") : "+ tmp.get("price")+"원"+"\n");
             out.append("time("+i+") : "+ millToDate.miltoDate((long)(tmp.get("time")))+"\n"); // (tmp.get("time")가 object타입이라 (long)으로 형변환 함.
             out.append("---------"+"\n");
-            date.add(millToDate.miltoDate((long)(tmp.get("time"))));
-            price.add(tmp.get("price").toString());
-
-
-
-            // chart[] 배열 안에 있는 genres[] 데이터 꺼내기
-//            JSONArray array2 = (JSONArray) tmp.get("genres");
-//            out.append("genres("+i+"): ");
-//            for(int j=0; j<array2.size(); j++) {
-//                out.append(array2.get(j));
-//                if(j!=array2.size()-1) {
-//                    out.append(",");
-//                }
-//            }
-//            out.append("\n");
-//            out.append("\n");
+//            date.add(millToDate.miltoDate((long)(tmp.get("time"))));
+//            price.add(tmp.get("price").toString());
+            String date = (millToDate.miltoDate((long)(tmp.get("time"))));
+            String price = (tmp.get("price").toString());
+            stockDatePrice.put(date, price);
         }
+
         //System.out.println(out.toString());
-        for(int i=0; i < date.size(); i++){
-            System.out.print(date);
-
-        }
-        //System.out.println(out.toString());
-        System.out.println();
-        for(int i=0; i < date.size(); i++){
-            System.out.print(price);
-
-        }
+//        for(int i=0; i < date.size(); i++){
+//            System.out.print(date);
+//
+//        }
+//        //System.out.println(out.toString());
+//        System.out.println();
+//        for(int i=0; i < date.size(); i++){
+//            System.out.print(price);
+//
+//        }
 //우선 메인 메소드에 종목 불러오는지만 콘솔창에 뜨도록 해둠
         //향후 따로 메소드와 클래스 분리핼 예정
-        return (JSONObject) array.get(1);
+
+       System.out.println(stockDatePrice);
+        return new JSONObject(stockDatePrice);
 
     }
 }
