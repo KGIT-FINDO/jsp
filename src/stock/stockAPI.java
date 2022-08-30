@@ -45,7 +45,7 @@ public class stockAPI  {
         result = (JSONObject) new JSONParser().parse(sb.toString());
         StringBuilder out = new StringBuilder();
         JSONObject chart= (JSONObject) result.get("chart");
-        JSONObject yearly = (JSONObject) chart.get("MONTHLY");
+        JSONObject yearly = (JSONObject) chart.get("DAILY");
 //        JSONObject yearly = (JSONObject) chart.get("DAILY"); 당일 하루치 분당 데이터 가져옴
         //JSONObject yearly = (JSONObject) chart.get("YEARLY"); 1년치 데이터 1일간격으로 데이터 가져옴
         //JSONObject yearly = (JSONObject) chart.get("MONTHLY"); 한달간 데이터 1인간격으로 가져옴.
@@ -87,18 +87,15 @@ public class stockAPI  {
         }
         //System.out.println(out.toString());
         for(int i=0; i < date.size(); i++){
-            System.out.print(date);
-
+            //System.out.print(date);
         }
         //System.out.println(out.toString());
-        System.out.println();
-        for(int i=0; i < date.size(); i++){
-            System.out.print(price);
-
-        }
-
-        System.out.println("-------");
-        System.out.println((JSONObject) array.get(1));
+        System.out.println(date);
+//        for(int i=0; i < date.size(); i++){
+//            System.out.print(price);
+//
+//        }
+//        System.out.println((JSONObject) array.get(1));
 //우선 메인 메소드에 종목 불러오는지만 콘솔창에 뜨도록 해둠
         //향후 따로 메소드와 클래스 분리핼 예정
 

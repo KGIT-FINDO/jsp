@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f56adae9-30c8-4715-9a17-541c0af5eb7e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/static/chartTest/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/chartTest/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/chartTest/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/test.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stock/StockInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stock/StockInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp/stock/stockAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp/stock/stockAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp/unixTime/MillToDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp/unixTime/MillToDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/stockAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stock/stockAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unixTime/MillToDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unixTime/MillToDate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +26,10 @@
         <option value="Interface" />
         <option value="JavaFXApplication" />
         <option value="Class" />
+        <option value="Jsp File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -52,11 +63,13 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/static/js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -75,7 +88,7 @@
       <recent name="$PROJECT_DIR$/static" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.printStockJson">
+  <component name="RunManager" selected="Application.stockAPI">
     <configuration name="printStockJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stock.printStockJson" />
       <module name="jsp" />
@@ -96,10 +109,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/java/static/chartTest/html/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/static/chartTest/js/index.js" working-dir="$PROJECT_DIR$/static/chartTest/js">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.printStockJson" />
         <item itemvalue="Application.stockAPI" />
+        <item itemvalue="Application.printStockJson" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.index.js" />
       </list>
     </recent_temporary>
   </component>
@@ -118,6 +139,9 @@
       <workItem from="1661149240532" duration="6417000" />
       <workItem from="1661235877984" duration="7308000" />
       <workItem from="1661328209109" duration="7114000" />
+      <workItem from="1661489629922" duration="1050000" />
+      <workItem from="1661584911538" duration="4183000" />
+      <workItem from="1661840202637" duration="2136000" />
     </task>
     <servers />
   </component>
