@@ -1,38 +1,71 @@
 <!DOCTYPE html>
 <html lang="ko">
     <head>
-        <title></title>
+        <title>Findo</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://kit.fontawesome.com/08cf8c1353.js" crossorigin="anonymous"></script>
-        <link href="../css/stylesheet.css" rel="stylesheet">
-        <script src="../js/javascript.js"></script>
+        <link href="./stylesheet.css" rel="stylesheet">
+        <script src="./javascript.js"></script>
     </head>
     <body>
         <!-- wrapper -->
         <div id="wrapper">
+            <div class="toggle_btn_page">
+                
+
+            </div>
             <!-- header -->
             <div class="header">
-                <div id="toggle_btn"><i class="fa-solid fa-bars"></i></div>
-                <div id="logo"><i class="fa-solid fa-bars"></i></div>
-                <div id="alram">
-                    <i class="fa-solid fa-bars"></i>
-                    <i class="fa-solid fa-bars"></i>
-                    <i class="fa-solid fa-bars"></i>
+                <div class="toggle_btn">
+                    <button><i class="fa-solid fa-bars"></i></button>
+                    <!--   -->
+                    
+
+                    
+                    <!--   -->
+                </div>
+                <img src="./images/findologo.png" />
+                <div id="header_buttons">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button><i class="fa-solid fa-bell"></i></button>
+                    <button><i class="fa-solid fa-toggle-off"></i></button>
                 </div>
             </div>
 
             <!-- navbar -->
             <div class="navbar">
-                <div id="home">홈</div>
-                <div id="portfolio">포트폴리오</div>
-                <div id="community">커뮤니티</div>
-                <div id="news">뉴스</div>
+                <input type="button" value="홈" />
+                <input type="button" value="포트폴리오" />
+                <input type="button" value="커뮤니티" />
+                <input type="button" value="뉴스" />
             </div>
 
             <div class="login">
-                <span>로그인을 하고 내 포트폴리오를 확인하세요</span>
+                <p>로그인을 하고 내 포트폴리오를 확인하세요</p>
+                <input type="button" value="로그인" />
             </div>
+
+            <div class="finance">
+                <img src="./images/earth.gif" />
+            </div>
+
+            <!-- <div class="rotate">
+                <img src="./images/rotate.png" id="rotate_image" />
+            </div> -->
+
+            <div class="finance">
+                <img src="./images/finance.jpg" />
+            </div>
+
+            <div class="ai">
+                <img src="./images/main.jpg" />
+            </div>
+
+            <div class="ai">
+                <img src="./images/asset.jpg" />
+            </div>
+            
 
             <div class="stock_price">
                 <span>코스피 시총 탑 10 주가 확인창</span>
@@ -49,6 +82,10 @@
                 <span>더보기</span>
             </div>
 
+            <div class="comment2">
+                <img src="./images/comment2.PNG" />
+            </div>
+
             <div class="community">
                 <span>커뮤니티 인기글 top5</span>
                 <div>테슬라</div>
@@ -56,7 +93,14 @@
                 <div>마이크로소프트</div>
                 <div>버크셔해서웨이B</div>
                 <div>코카콜라</div>
+            </div>
 
+            <div class="company">
+                <img src="./images/building.jpg" />
+            </div>
+
+            <div class="company">
+                <img src="./images/building2.jpg" />
             </div>
 
             <!-- footer -->
@@ -80,6 +124,9 @@
                     </div>
                 </div>
 
+                <div class="relationship">
+                    <img src="./images/relationship.PNG" />
+                </div>
 
                 <div class="footer_middle">
 
@@ -89,6 +136,7 @@
                             <li><a href="#">전자금융거래기본약관</a></li>
 
                         </div>
+
                         <div>
                             <li><a href="#">개인정보처리방침</a></li>
                             <li><a href="#">경영공지</a></li>

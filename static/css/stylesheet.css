@@ -1,26 +1,91 @@
 body {
-    width: 100vw;
-    height: 100vh; 
     margin: 0px;
 
 }
 
 body div {
-    border:1px solid pink;
+    
+    border: 1px solid rgb(219, 234, 234);
     margin: 4px;
-    padding: 6px;
+    padding: 4px 4px;
+    border-radius: 16px;
 
 }
 
 #wrapper {
-    width: 60%;
+    width: 85%;
     margin: auto;
-    font-size: 0.6em;
+    font-size: 0.8em;
+    
+    
+    
+}
+
+.toggle_btn_page {
+    display: none;
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+    background-color:rgb(219, 234, 234)
+
+}
+
+@media (min-width: 768px) {
+    .toggle_btn_page {
+        position: absolute;
+        width: 35%;
+        height: 100%;
+        background-color:rgb(219, 234, 234)
+    }
+}
+
+@media (min-width: 1440px) {
+    #wrapper {
+        width: 40%;
+        margin: auto;
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 1024px) {
+    #wrapper {
+        width: 50%;
+        margin: auto;
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 900px) {
+    #wrapper {
+        width: 55%;
+        margin: auto;
+        font-size: 1em;
+    }
+}
+
+
+@media (min-width: 768px) {
+    #wrapper {
+        width: 60%;
+        margin: auto;
+        font-size: 1em;
+    }
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+}
+
+
+
+.header img {
+    width: 100px;
+    height: 40px;
+}
+
+.header i {
+    font-size: 16px
 }
 
 .navbar {
@@ -31,18 +96,12 @@ body div {
 
 .login {
     text-align: center;
+    
 
 }
 
-.stock_price {
-    text-align: center;
-}
 
-.community {
-    text-align: center;
-
-}
-
+/* footer */
 .footer {
     font-size: 0.4em;
 
@@ -62,11 +121,7 @@ body div {
     display: flex;
     justify-content: space-around;
     
-    
-
 }
-
-
 
 .footer_middle_top {
     display: flex;
@@ -91,3 +146,79 @@ body div {
     
 
 }
+
+
+/* main */
+.rotate img {
+    height: 100%; 
+    width: 100%; 
+    object-fit: 'contain';
+    border-radius: 16px;
+    animation: rotate_image 6s ease-in-out infinite;
+    transform-origin: 50% 50%;}
+
+@keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*----------------------------*/
+
+.stock_price {
+    text-align: center;
+}
+
+.community {
+    text-align: center;
+
+}
+/*----------------------------*/
+
+.finance img {
+    height: 100%; 
+    width: 100%; 
+    object-fit: 'contain';
+    border-radius: 16px;
+
+}
+
+.ai img {
+    height: 100%; 
+    width: 100%; 
+    object-fit: 'contain';
+    border-radius: 16px;
+
+}
+
+.comment2 img {
+    height: 100%; 
+    width: 100%; 
+    object-fit: 'contain';
+    border-radius: 16px;
+}
+
+
+.company img {
+    height: 100%; 
+    width: 100%; 
+    object-fit: 'contain';
+    border-radius: 16px;
+
+
+}
+
+.relationship img {
+    height: 100%; 
+    width: 100%; 
+    object-fit: 'contain';
+    border-radius: 16px;
+    
+
+}
+
+
+/*                   */
+
+
+
