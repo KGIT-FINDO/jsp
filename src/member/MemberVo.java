@@ -1,6 +1,6 @@
-package signIn;
+package member;
 
-public class SignInDTO implements SignIn {
+public class MemberVo implements SignIn {
     private String id;
     private String password;
     private String name;
@@ -9,7 +9,11 @@ public class SignInDTO implements SignIn {
     private String email;
     private String phoneNum;
 
-    public SignInDTO(String id, String password, String name, String birth, String gender, String email, String phoneNum){
+    public MemberVo(){
+
+    }
+
+    public MemberVo(String id, String password, String name, String birth, String gender, String email, String phoneNum){
         this.id = id;
         this.password = password;
         this.name = name;
@@ -18,6 +22,7 @@ public class SignInDTO implements SignIn {
         this.email = email;
         this.phoneNum = phoneNum;
     }
+
 
     public String getId() {
         return id;
@@ -74,7 +79,6 @@ public class SignInDTO implements SignIn {
     public void setPhoneNum(String phoneNum) {
         this.phoneNum = phoneNum;
     }
-
 
     @Override
     public void save() {

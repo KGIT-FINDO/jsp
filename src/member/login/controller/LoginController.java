@@ -1,9 +1,10 @@
-package login.controller;
+package member.login.controller;
 
-import Action.ActionForward;
-import Action.Action;
 
-import javax.servlet.http.HttpServlet;
+import member.action.Action;
+import member.action.ActionForward;
+
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 

@@ -1,4 +1,4 @@
-package signIn;
+package member;
 
 public interface SignIn {
     public void save();

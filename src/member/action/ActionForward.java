@@ -1,4 +1,4 @@
-package Action;
+package member.action;
 public class ActionForward {
     private boolean isRedirect;// 어떻게 이동을 할 것인지를 판단하는 분기 변수
     private String path;// 이동할 때 매핑주소 또는 뷰페이지 경로

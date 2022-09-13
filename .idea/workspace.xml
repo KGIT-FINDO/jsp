@@ -1,16 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="jsp:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f56adae9-30c8-4715-9a17-541c0af5eb7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/cos.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jstl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/standard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/member/MFrontController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/member/MemberDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/member/logout/controller/LogOutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/member/signIn/controller/SignInOkController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/daum.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsp/signIn/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d/storage_v2/_src_/schema/SYSTEM.L2avkg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d/storage_v2/_src_/schema/SYSTEM.L2avkg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6__2_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jsp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jsp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp/login/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp/signIn/SignIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp/signIn/SignInDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp/signIn/SignInDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp/signIn/testMember.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp/stock/stockAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp/stock/stockAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Action/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/action/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Action/ActionForward.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/action/ActionForward.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/login/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/login/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/signIn/SignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/SignIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/signIn/SignInDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/signIn/SignInDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/MemberVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/signIn/controller/SignInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/signIn/controller/SignInController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/signIn/testMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/signIn/testMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/signIn/test.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +79,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="2DWNLKwe0YyOrvsyaSTP7KMXQsB" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -70,21 +103,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/WEB-INF" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/lib" />
+      <recent name="$PROJECT_DIR$/web/jsp/signIn" />
       <recent name="$PROJECT_DIR$/static/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/jsp/signIn" />
       <recent name="$PROJECT_DIR$/static/css" />
       <recent name="$PROJECT_DIR$/static/js" />
       <recent name="$PROJECT_DIR$/static/html" />
@@ -242,7 +278,11 @@
       <workItem from="1661584911538" duration="4183000" />
       <workItem from="1661840202637" duration="2136000" />
       <workItem from="1662015059055" duration="3528000" />
-      <workItem from="1662209844571" duration="2748000" />
+      <workItem from="1662209844571" duration="3174000" />
+      <workItem from="1662213812822" duration="8000" />
+      <workItem from="1663050351065" duration="7913000" />
+      <workItem from="1663068419871" duration="428000" />
+      <workItem from="1663068870728" duration="5611000" />
     </task>
     <servers />
   </component>
