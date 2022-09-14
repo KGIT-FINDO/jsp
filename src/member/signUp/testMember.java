@@ -1,4 +1,4 @@
-package member.signIn;
+package member.signUp;
 
 import member.MemberVo;
 

@@ -29,7 +29,7 @@ public class MemberDAOImpl { //회원관리 jdbc
         MemberVo m = null;
         try {
             con = ds.getConnection();
-            sql = "slect * from membrerT where id=?";
+            sql = "slect * from member where id=?";
             ps = con.prepareStatement(sql);
             ps.setString(1, id);//춰리문 첫번째 물음표에 문자열로  아이디 저장
             rs = ps.executeQuery();
@@ -122,14 +122,14 @@ public class MemberDAOImpl { //회원관리 jdbc
 
         try {
             con = ds.getConnection();
-            sql = "select * from member where mem_id=?";
+            sql = "select * from member where id=?";
             ps = con.prepareStatement(sql);//쿼리문을 미리 컴파일 해서 수행할 pt생성
             ps.setString(1, id);
             rs = ps.executeQuery();
 
             if (rs.next()) {
                 m = new MemberVo();
-                m.setPassword(rs.getString("mem_pwd"));
+                m.setPassword(rs.getString("password"));
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -151,14 +151,14 @@ public class MemberDAOImpl { //회원관리 jdbc
         MemberVo m = null;
         try {
             con = ds.getConnection();//커넥션 풀로 db 연결 con 생성
-            sql = "select * from memberT where mem_id=?";
+            sql = "select * from member where id=?";
             ps = con.prepareStatement(sql);
             ps.setString(1, id);//쿼리문의 첫번째 물음펴ㅛ에 문자열로 id를 저장
             rs = ps.executeQuery();//select문 수행후 결과 레코드를 rs에 저장
             if (rs.next()) {//검색된 다음레코드 행이 존재하면 참. 검색결과가 하나인 경우 실행
                 m = new MemberVo();
                 m.setId(rs.getString("id"));//mem_id컬럼으로부터 문자열로 회원 아이디 레코드를 가져와서 해당 setter()에 저장
-                m.setPassword(rs.getString("pwd"));
+                m.setPassword(rs.getString("password"));
                 m.setName(rs.getString("name"));
                 m.setBirth(rs.getString("birth"));
                 m.setGender(rs.getString("gender"));

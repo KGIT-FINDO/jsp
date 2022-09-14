@@ -14,19 +14,19 @@
 	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 	integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
 	crossorigin="anonymous"></script>
-<link href="../../front2/css/stylesheet.css" rel="stylesheet" />
-<script src="../../front2/javascript/jquery.js"></script>
-<script type="text/javascript" src="../../front2/javascript/javascript.js"></script>
+<link href="../css/stylesheet.css" rel="stylesheet" />
+<script src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/javascript.js"></script>
 <script src="https://kit.fontawesome.com/08cf8c1353.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	<form method="post" action="member_join_ok.do">
+	<form method="post" action="#">
 
 		<div class="signup_wrapper">
 			<div class="signup_wrapper_container">
 
 				<div class="signup_logo">
-					<img src="./images/default.png" />
+					<img src="../images/default.png" />
 				</div>
 				<div class="signup_id">
 					<h3>아이디</h3>
@@ -70,7 +70,7 @@
 					<h3>성별</h3>
 				</div>
 				<div class="signup_gender_text">
-					<select id="signup_gender_text" name="signup_gender_text">
+					<select>
 						<option value="select" disabled selected>선택</option>
 						<option value="male">남성</option>
 						<option value="female">여성</option>
@@ -91,7 +91,7 @@
 				</div>
 
 				<div class="signup_phonenumber_text">
-					<input type="text" id="signup_phonenumber_text" name="signup_phonenumber_text"placeholder="'-'를 제외하고 입력하세요." size="32"
+					<input type="text" placeholder="'-'를 제외하고 입력하세요." size="32"
 						maxlength="24" required />
 				</div>
 

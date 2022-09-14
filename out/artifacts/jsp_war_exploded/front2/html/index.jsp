@@ -7,9 +7,9 @@
 <title>Findo</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="./css/stylesheet.css" />
-<script src="../../front2/javascript/jquery.js"></script>
-<script type="text/javascript" src="../../front2/javascript/javascript.js"></script>
+<link rel="stylesheet" href="../css/stylesheet.css" />
+<script src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/javascript.js"></script>
 <script src="https://kit.fontawesome.com/08cf8c1353.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -25,18 +25,18 @@
 					<button id="header_top_togglebutton"><i class="fa-solid fa-bars"></i></button>
 				</div>
 				<div class="header_top_logo">
-					<img src="./images/default.png" alt="default" />
+					<img src="../images/logo_black.png" alt="logo_black" />
 				</div>
 				<div class="header_top_icons">
-					<button id="header_top_bell"><i class="fa-solid fa-bell"></i></button>
+					<a href="./index_bell.jsp"><button id="header_top_bell"><i class="fa-solid fa-bell"></i></button></a>
 					<button id="header_top_switch"><i class="fa-solid fa-toggle-on"></i></button>
-					<button id="header_top_search"><i class="fa-solid fa-magnifying-glass"></i></button>
+					<a href="./index_search.jsp"><button id="header_top_search"><i class="fa-solid fa-magnifying-glass"></i></button></a>
 				</div>
 			</div>
 			<%-- block --%>
 			
 			<div class="header_middle">
-				<a href="#"><input type="button" value="홈" /></a>
+				<a href="./index.jsp"><input type="button" value="홈" /></a>
 				<a href="#"><input type="button" value="포트폴리오" /></a>
 				<a href="#"><input type="button" value="커뮤니티" /></a>
 				<a href="#"><input type="button" value="뉴스" /></a>
@@ -44,10 +44,12 @@
 			
 			<div class="header_bottom">
 			
-				<div class="header_bottom_login_infomation">
-					<p>홍길동 님 반갑습니다.</p>
+				<div class="header_bottom_write">
+					<p>로그인을 하려면 아래의 버튼을 누르시오</p>
 				</div>
-				
+				<div class="header_bottom_button">
+					<a href="./signin.jsp"><input type="button" value="로그인" /></a>
+				</div>
 			</div> <%-- heaer_bottom class 닫는 마지막 /div --%>
 			
 		</div> <%-- header class 닫는 마지막 /div --%>
@@ -89,21 +91,21 @@
 			<div class="footer_top">
 			
 				<div class="footer_top_list">
-					<li><a href="#">home</a></li>
-					<li><a href="#">company</a></li>
-					<li><a href="#">how to Findo</a></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Company</a></li>
+					<li><a href="#">How To Findo</a></li>
 				</div>
 				
 				<div class="footer_top_list">
-					<li><a href="#">investment</a></li>
-					<li><a href="#">products</a></li>
-					<li><a href="#">career</a></li>
+					<li><a href="#">Investment</a></li>
+					<li><a href="#">Products</a></li>
+					<li><a href="#">Career</a></li>
 				</div>
 				
 				<div class="footer_top_list">
 					<li><a href="#">FAQ</a></li>
-					<li><a href="#">management</a></li>
-					<li><a href="#">asset</a></li>				
+					<li><a href="#">Management</a></li>
+					<li><a href="#">Asset</a></li>				
 				</div>
 				
 			</div>
