@@ -1,0 +1,323 @@
+@charset "UTF-8";
+
+/* index.html - header class */
+.wrapper_index {
+	/*전체 wrapper class*/
+	
+}
+
+.header_top {
+	display: flex;
+	justify-content: center;
+	
+}
+
+.header_top_logo img {
+	width: 250px;
+	height: 100px;
+	right: 8px;
+	
+}
+
+.header_middle {
+	text-align: center;
+	margin: 8px 0px;
+	
+}
+
+.header_middle input {
+	text-align: center;
+	padding: 4px 24px;
+	
+}
+
+.header_bottom {
+	text-align: center;
+	
+}
+/* index.html - header class */
+
+/* inddex.html - main class */
+
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	line-height: 550px;
+	
+	margin: 8px 0px;
+	
+}
+
+.main div {
+	width: 400px;
+	height: 300px;
+	background-color: gray;
+	border: 1px solid;
+	margin: 8px 0px;
+	border-radius: 8px;
+	
+	/* 추후 나중에 크기 조절 및 테두리 정리하기 */
+}
+
+
+.main_top {
+	background-image: url('../images/default1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+/* inddex.html - main class */
+
+/* index.html - footer class */
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.footer_top{
+	width: 400px;
+	background-color: white;
+	border: 1px solid;
+	margin: 2px 0px;
+	border-radius: 8px;
+	
+		
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+.footer_top_list li {
+	text-decoration: none;
+	list-style: none;
+	
+}
+
+.footer_top_list li a {
+	text-decoration: none;
+	color: black;
+	
+}
+
+.footer_middle{
+	width: 400px;
+	height: 300px;
+	background-color: white;
+	border: 1px solid;
+	margin: 2px 0px;
+	border-radius: 8px;
+	
+	background-image: url('../images/default1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+
+	
+	/* 추후 나중에 크기 조절 및 테두리 정리하기 */
+}
+
+
+.footer_bottom{
+	width: 400px;
+	background-color: white;
+	border: 1px solid;
+	margin: 2px 0px;
+	border-radius: 8px;
+	
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+.footer_bottom_top_list li {
+	text-decoration: none;
+	list-style: none;
+	
+}
+
+.footer_bottom_top_list li a {
+	text-decoration: none;
+	color: black;
+
+}
+
+.footer_bottom_middle {
+	width: 400px;
+	background-color: white;
+	border: 1px solid;
+	margin: 2px 0px;
+	border-radius: 8px;
+	
+}
+
+.footer_bottom_bottom{
+	width: 400px;
+	background-color: white;
+	border: 1px solid;
+	margin: 2px 0px;
+	border-radius: 8px;
+	
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+
+.footer_bottom_bottom_top span {
+	text-align: left;
+	font-size: 8px;
+	
+}
+
+.footer_bottom_bottom_middle button {
+	text-align: right;
+	
+}
+
+/* index.jsp - footer class */
+
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+
+/* signin.jsp css */
+
+.wrapper_login {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	margin-top: 10%;
+
+	
+}
+
+.signin_main_login {
+	display: flex;
+	justify-content: space-between;
+	font-size: 8px;
+}
+
+.signin_main_loginbutton {
+	text-align: center;
+	
+}
+
+.signin_search {
+	display: flex;
+	font-size: 8px;
+	
+}
+
+.signin_search li{
+	list-style: none;
+	
+}
+
+.signin_search a{
+	text-decoration: none;
+	
+}
+
+.signin_advertisement img{
+	
+	width: 400px;
+	height: 300px;
+	
+}
+
+.signin_law {
+	display: flex;
+	font-size: 8px;
+	
+}
+
+.signin_law li{
+	list-style: none;
+	
+}
+
+.signin_law a{
+	text-decoration: none;
+	
+}
+
+.signin_copyright p {
+	font-size: 8px;
+	
+}
+/* signin.jsp css */
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+/* signup.jsp css */
+
+.signup_wrapper{
+	display: flex;
+	justify-content: center;
+	
+}
+
+.signup_logo img {
+	width: 200px;
+	height: 200px;
+	
+}
+
+.signup_button input {
+	padding: 4px 114px;
+	
+}
+
+.signup_law {
+	display: flex;
+	
+}
+
+.signup_law li {
+	text-decoration: none;
+	list-style: none;
+	
+}
+
+.signup_law li a {
+	text-decoration: none;
+	color: black;
+
+}
+
+.signup_law {
+	font-size: 8px;
+	
+}
+
+.signin_copyright {
+	font-size: 8px;
+	
+}
+
+
+/* signup.jsp css */
+
+/* signup_agreement.jsp css*/
+
+.wrapper_signup_agreement_form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.signup_agreement_form_button {
+	text-align: center;
+	
+}
+
+/* signup_agreement.jsp css*/
