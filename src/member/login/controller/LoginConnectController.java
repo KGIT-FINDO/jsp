@@ -30,7 +30,7 @@ public class LoginConnectController implements Action {
 
             ActionForward forward = new ActionForward();
             forward.setRedirect(false);
-            forward.setPath("/front/view/login_connect.jsp");
+            forward.setPath("/front2/html/login_connect.jsp");
             return forward;
 
         }

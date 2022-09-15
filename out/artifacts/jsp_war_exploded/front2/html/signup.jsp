@@ -20,7 +20,7 @@
 <script src="https://kit.fontawesome.com/08cf8c1353.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	<form method="post" action="#">
+	<form method="post" action="member_join_ok.do">
 
 		<div class="signup_wrapper">
 			<div class="signup_wrapper_container">
@@ -91,7 +91,7 @@
 				</div>
 
 				<div class="signup_phonenumber_text">
-					<input type="text" placeholder="'-'를 제외하고 입력하세요." size="32"
+					<input type="text" id="signup_phonenumber_text" name="signup_phonenumber_text"placeholder="'-'를 제외하고 입력하세요." size="32"
 						maxlength="24" required />
 				</div>
 

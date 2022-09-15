@@ -10,19 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f56adae9-30c8-4715-9a17-541c0af5eb7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/member/login/controller/LoginConnectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/member/login/controller/SignInOkController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d/storage_v2/_src_/schema/SYSTEM.L2avkg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d/storage_v2/_src_/schema/SYSTEM.L2avkg.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/member/MemberDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/MemberDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/member/login/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/login/controller/SignInController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/member/signIn/controller/SignInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/signUp/controller/SignUpController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/member/signIn/controller/SignInOkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/signUp/controller/SignUpOkController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/member/signIn/testMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/signUp/testMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front/view/login_connect.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front/view/login_connect.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front/view/signin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front/view/signin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front/view/signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front/view/signup.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signup.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp/stock/stockAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp/stock/stockAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/member/login/controller/LoginConnectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/login/controller/LoginConnectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/member/login/controller/SignInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/login/controller/SignInController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/member/signUp/controller/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/signUp/controller/SignUpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/stockAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stock/stockAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/front/view/signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front/view/signup.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/signin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/signin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/signup.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,8 +230,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.stockAPI" />
         <item itemvalue="Application.printStockJson" />
+        <item itemvalue="Application.stockAPI" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.index.js" />
       </list>
@@ -263,6 +262,7 @@
       <workItem from="1663068419871" duration="428000" />
       <workItem from="1663068870728" duration="5611000" />
       <workItem from="1663140750433" duration="13747000" />
+      <workItem from="1663225207615" duration="3467000" />
     </task>
     <servers />
   </component>

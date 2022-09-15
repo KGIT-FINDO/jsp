@@ -91,6 +91,7 @@ public class stockAPI  {
         }
         //System.out.println(out.toString());
         System.out.println(date);
+        System.out.println(price);
 //        for(int i=0; i < date.size(); i++){
 //            System.out.print(price);
 //

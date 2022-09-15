@@ -11,7 +11,7 @@ public class SignUpController implements Action{
 
         ActionForward forward = new ActionForward();
         forward.setRedirect(false);//기존 매핑주소 값을 유지하고, 속성키 이름과 값도 유지한다.
-        forward.setPath("./front/view/signup.jsp");
+        forward.setPath("./front2/html/signup.jsp");
         return forward;
 
     }

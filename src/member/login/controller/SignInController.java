@@ -14,7 +14,7 @@ public class SignInController implements Action{
     public ActionForward execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
         ActionForward forward = new ActionForward();
         forward.setRedirect(false); //기본매핑주소를 유지하면서 뷰페이지로 이동
-        forward.setPath("./front/view/signin.jsp");
+        forward.setPath("./front2/html/signin.jsp");
         return forward;// return값을 null로 하면 해당 view 페이지로 안가고 화면이 하얗게 나온다.
 
     }
