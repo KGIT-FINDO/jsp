@@ -27,6 +27,7 @@ public class SignUpOkController implements Action {
         String signup_email_text = request.getParameter("signup_email_text");
         String signup_phonenumber_text = request.getParameter("signup_phonenumber_text");
 
+
         m.setId(signup_id);
         m.setPassword(signup_password);
         m.setName(signup_name);

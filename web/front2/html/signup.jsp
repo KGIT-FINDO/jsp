@@ -69,8 +69,8 @@
 				<div class="signup_gender">
 					<h3>성별</h3>
 				</div>
-				<div class="signup_gender_text">
-					<select>
+				<div class="signup_gender_text" >
+					<select id="signup_gender_text" name="signup_gender_text">
 						<option value="select" disabled selected>선택</option>
 						<option value="male">남성</option>
 						<option value="female">여성</option>

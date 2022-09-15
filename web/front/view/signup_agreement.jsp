@@ -11,7 +11,7 @@
 <body>
 	<div class="wrapper_signup_agreement_form">
 		<div class="signup_agreement_form">
-			<form method="get" action="#" id="signup_agreement_form">
+			<form method="get" action="member_join.do" id="signup_agreement_form">
 				<h1>핀도 회원가입</h1>
 				<h2>약관선택</h2>
 				<div>
