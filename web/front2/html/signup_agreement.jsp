@@ -5,15 +5,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Findo</title>
-<link href="../css/stylesheet.css" rel="stylesheet" />
-<script src="../js/jquery.js"></script>
+<link href="Downloads/Findo (2)/Findo/WebContent/css/stylesheet.css" rel="stylesheet" />
+<script src="Downloads/Findo (2)/Findo/WebContent/js/jquery.js"></script>
 </head>
 <body>
 	<div class="wrapper_signup_agreement_form">
 		<div class="signup_agreement_form">
-			<form method="get" action="member_join.do" id="signup_agreement_form">
-				<h1>핀도 회원가입</h1>
-				<h2>약관선택</h2>
+			<form method="get" action="#" id="signup_agreement_form">
+				
+				<div>
+					<img src="Downloads/Findo (2)/Findo/WebContent/images/logo_black.png" style="width:300px; height:100px;"/>
+				</div>
+				<h2>회원가입</h2>
 				<div>
 					<input type="checkbox" name="all" id="signup_agreement_select_all">
 					전체선택
@@ -530,11 +533,11 @@
 3. 성 명 : 정범수
 4. 연 락 처 : 1544-4885</textarea>
 				<div class="signup_agreement_form_button">
-					<input type="submit" value="동의" > <input type="reset" value="미동의" />
+					<input type="submit" value="동의" style="cursor: pointer;"> <input type="reset" value="미동의" style="cursor: pointer;"/>
 				</div>
 			</form>
 		</div>
 	</div>
-	<script type="text/javascript" src="../js/javascript.js"></script>
+	<script type="text/javascript" src="Downloads/Findo (2)/Findo/WebContent/js/javascript.js"></script>
 </body>
 </html>

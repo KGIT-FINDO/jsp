@@ -7,29 +7,28 @@
 <title>Findo</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<link href="../css/stylesheet.css" rel="stylesheet" /><script src="../js/jquery.js"></script>
-	<script type="text/javascript" src="../js/javascript.js"></script>
-	<script src="https://kit.fontawesome.com/08cf8c1353.js" crossorigin="anonymous"></script>
-
-
+<link href="Downloads/Findo (2)/Findo/WebContent/css/stylesheet.css" rel="stylesheet" />
+<script src="Downloads/Findo (2)/Findo/WebContent/js/jquery.js"></script>
+<script type="text/javascript" src="Downloads/Findo (2)/Findo/WebContent/js/javascript.js"></script>
+<script src="https://kit.fontawesome.com/08cf8c1353.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	<form method="post" action="member_login_ok.do">
+	<form method="post" action="#">
 		<%-- 전체를 움직이고 싶으면 login class 를 이용하기 --%>
 		<div class="wrapper_login">
 	
 			<div class="signin_logo">
-				<img src="../images/default.png" />
+				<a href="Downloads/Findo (2)/Findo/WebContent/view/index.jsp"><img src="Downloads/Findo (2)/Findo/WebContent/images/logo_black.png" /></a>
 			</div>
 			
 			<%-- signin_main 전체를 움직이는 class --%>
 			<div class="signin_main">
 				<div class="signin_main_login">로그인</div>
 				<div class="signin_main_login_id">
-					<input type="text" id="id" name="id" size="24" placeholder="ID" maxlength="20" required />
+					<input type="text" size="24" placeholder="ID" maxlength="20" required />
 				</div>
 				<div class="signin_main_login_password">
-					<input type="password" id="password" name="password" size="24" placeholder="Password" maxlength="20" required />
+					<input type="password" size="24" placeholder="Password" maxlength="20" required />
 				</div>
 				<div class="signin_main_login">
 					<div>로그인 상태유지</div>
@@ -44,11 +43,11 @@
 			<div class="signin_search">
 				<li><a href="#">비밀번호 찾기 </a> | </li>
 				<li><a href="#">아이디찾기 </a> | </li>
-				<li><a href="./signup_agreement.jsp">회원가입</a></li>
+				<li><a href="Downloads/Findo (2)/Findo/WebContent/view/signup_agreement.jsp">회원가입</a></li>
 			</div>
 			
 			<div class="signin_advertisement">
-				<img src="../images/default1.png" />
+				<a href="https://rolls-roycemotorcars-apac.com/kr/?utm_source=google&utm_medium=cpc&utm_campaign=2022-MARCH_ALWAYSON_KR_SEM_CONV_BRAND-EXACT&utm_content=2022-MARCH_ALWAYSON_KR_SEM_CONV_BRAND-EXACT_Rolls%20Royce%20Exact%20KR&gclid=EAIaIQobChMI6LPe5tmY-gIVotdMAh2GYQNSEAAYASAAEgJ3cfD_BwE"><img src="Downloads/Findo (2)/Findo/WebContent/images/car.jpg" /></a>
 			</div>
 			
 			<%-- signin_law 전체를 움직이는 class --%>
@@ -64,7 +63,6 @@
 			</div>
 			
 		</div>
-
 	</form>
 </body>
 </html>

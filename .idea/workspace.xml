@@ -10,10 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f56adae9-30c8-4715-9a17-541c0af5eb7e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/jsp_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/jsp_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/html/company_financial_transation_law.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/html/company_personal_info_law.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stock/StockInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stock/StockInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unixTime/MillToDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unixTime/MillToDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/index_bell.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/index_bell.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/signin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/signin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/signup_agreement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/signup_agreement.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,11 +93,11 @@
       <recent name="$PROJECT_DIR$/static/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/front2/html" />
       <recent name="$PROJECT_DIR$/web/jsp/signIn" />
       <recent name="$PROJECT_DIR$/static/css" />
       <recent name="$PROJECT_DIR$/static/js" />
       <recent name="$PROJECT_DIR$/static/html" />
-      <recent name="$PROJECT_DIR$/static" />
     </key>
   </component>
   <component name="RunManager" selected="Application.printStockJson">
@@ -257,6 +259,8 @@
       <workItem from="1663140750433" duration="13747000" />
       <workItem from="1663225207615" duration="8669000" />
       <workItem from="1663314016201" duration="2145000" />
+      <workItem from="1663316369141" duration="39000" />
+      <workItem from="1663338171059" duration="166000" />
     </task>
     <servers />
   </component>
