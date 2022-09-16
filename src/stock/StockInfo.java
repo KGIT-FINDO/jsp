@@ -66,7 +66,7 @@ public class StockInfo {
 
         JSONObject tmp;
         MillToDate millToDate = new MillToDate();
-        LinkedHashMap<String, String> stockDatePrice = new LinkedHashMap<>();
+        //LinkedHashMap<String, String> stockDatePrice = new LinkedHashMap<>();
 
         //  return할 json 객체에 일간 월간 연간 날짜와 가격정보를 담는 부분
         JSONObject returnData = new JSONObject(); //리턴할 최종 데이터
@@ -122,11 +122,13 @@ public class StockInfo {
             tmp = (JSONObject) monthlyArray.get(i);
             String date = (millToDate.miltoDate((long)(tmp.get("time"))));
             String price = (tmp.get("price").toString());
+            //System.out.println(date);
             monthlyDate.add(date);
             monthlyPrice.add(price);
         }
         monthlyData.put("date", monthlyDate);
         monthlyData.put("price", monthlyPrice);
+        //System.out.println(monthlyData);
 
         //1일치 데이터
         JSONObject dailyData = new JSONObject();
@@ -148,14 +150,13 @@ public class StockInfo {
         returnData.put("1year", yearlyData);
         returnData.put("3month", monthly3Data);
         returnData.put("1month", monthlyData);
+
+        //System.out.println(returnData);
         returnData.put("daily", dailyData);
-
-
-
 
         //System.out.println(yearlyArray);
         System.out.println(returnData);
-        return new JSONObject(stockDatePrice);
+        return new JSONObject(returnData);
 
     }
 }
