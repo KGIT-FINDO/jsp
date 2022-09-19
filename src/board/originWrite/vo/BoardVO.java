@@ -1,4 +1,4 @@
-package board.vo;
+package board.originWrite.vo;
 
 public class BoardVO {
     private int board_no;

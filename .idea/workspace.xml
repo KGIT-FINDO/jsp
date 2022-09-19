@@ -10,12 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f56adae9-30c8-4715-9a17-541c0af5eb7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/board/vo/BoardVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/member/edit/controller/EditController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/board/originWrite/BoardDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/board/originWrite/OriginWriteOkController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d/storage_v2/_src_/schema/SYSTEM.L2avkg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d/storage_v2/_src_/schema/SYSTEM.L2avkg.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/ContController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/ContController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/board/vo/BoardVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/originWrite/vo/BoardVO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +25,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaFXApplication" />
-        <option value="Jsp File" />
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="Interface" />
         <option value="package-info" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -263,7 +262,8 @@
       <workItem from="1663338171059" duration="166000" />
       <workItem from="1663380525075" duration="2389000" />
       <workItem from="1663568618048" duration="1524000" />
-      <workItem from="1663570933182" duration="3177000" />
+      <workItem from="1663570933182" duration="5311000" />
+      <workItem from="1663592671403" duration="1872000" />
     </task>
     <servers />
   </component>
