@@ -1,6 +1,6 @@
 package board.originWrite;
 
-import board.originWrite.vo.BoardVO;
+import board.vo.BoardVO;
 
 import javax.naming.Context;
 import javax.naming.InitialContext;
@@ -46,5 +46,50 @@ public class BoardDAOImpl {
                 e.printStackTrace();
             }
         }
+    }
+
+    public void updateBoard(BoardVO eb) {
+        try {
+            con = ds.getConnection();
+            sql = "update memberT set board_title=?,board_cont=? where board_no=?";
+            pt = con.prepareStatement(sql);//쿼리문을 미리 컴파일 해서 수행할 pt생성
+            pt.setString(1, eb.getBoard_title());
+            pt.setString(2, eb.getBoard_cont());
+            pt.setInt(3, eb.getBoard_no());
+
+
+            pt.executeUpdate();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (pt != null) pt.close();
+                if (con != null) con.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+        }
+    }
+
+    public void delBoard(int board_no) {
+        try{
+            con = ds.getConnection();
+            sql = "delete from boardT where board_no=?";
+            pt=con.prepareStatement(sql);
+            pt.setInt(1, board_no);
+
+            pt.executeUpdate();
+
+
+        } catch (Exception e){e.printStackTrace();}
+        finally {
+            try{
+                if(pt != null) pt.close();
+                if(con != null) con.close();
+            }catch (Exception e){e.printStackTrace();}
+        }
+    }
     }
 }

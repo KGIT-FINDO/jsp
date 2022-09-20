@@ -1,6 +1,6 @@
 package board.originWrite;
 
-import board.originWrite.vo.BoardVO;
+import board.vo.BoardVO;
 import member.action.Action;
 import member.action.ActionForward;
 
