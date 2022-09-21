@@ -25,11 +25,17 @@ public class OriginEditOkController implements Action {
             page=Integer.parseInt(request.getParameter("page"));
         }
         HttpSession session = request.getSession();
-        String board_name = request.getParameter("board_name");
+        String board_name = (String) session.getAttribute("board_name");
         String board_title = request.getParameter("board_title");
         String board_cont = request.getParameter("board_cont");
 
-        BoardDAOImpl bdao = new BoardDAOImpl();
+        if(board_name == null){
+            out.println("<script>");
+            out.println("alert('비번이 다릅니다')");
+            out.println("history.back();");
+            out.println("</script>");
+        }else {
+            BoardDAOImpl bdao = new BoardDAOImpl();
             BoardVO eb = new BoardVO();
             eb.setBoard_no(board_no);
             eb.setBoard_name(board_name);
@@ -42,7 +48,9 @@ public class OriginEditOkController implements Action {
             forward.setRedirect(true);//새로운 매핑주소로 이동
             forward.setPath("board_cont.do?board_no="+board_no+"&page="+page+"&state=cont");
             return forward;
+        }
 
+        return null;
 
     }
 }

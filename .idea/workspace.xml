@@ -10,12 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f56adae9-30c8-4715-9a17-541c0af5eb7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/board/OriginDel/OriginDelOkController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/board/originEdit/OriginEditOkController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/board/reply/ReplyDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/board/reply/replyWrite/ReplyWriteOKController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d/storage_v2/_src_/schema/SYSTEM.L2avkg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d/storage_v2/_src_/schema/SYSTEM.L2avkg.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/board/originEdit/OriginEditOkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/originEdit/OriginEditOkController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/board/originWrite/BoardDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/originWrite/BoardDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/board/originWrite/OriginWriteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/originWrite/OriginWriteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/board/originWrite/OriginWriteOkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/originWrite/OriginWriteOkController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/originWrite/vo/BoardVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/vo/BoardVO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,6 +272,8 @@
       <workItem from="1663671843098" duration="4500000" />
       <workItem from="1663679638824" duration="621000" />
       <workItem from="1663680283717" duration="470000" />
+      <workItem from="1663680810604" duration="284000" />
+      <workItem from="1663740463236" duration="5973000" />
     </task>
     <servers />
   </component>
