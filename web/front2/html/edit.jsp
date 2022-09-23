@@ -15,9 +15,9 @@
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
             crossorigin="anonymous"></script>
-    <link href="../css/stylesheet.css" rel="stylesheet" />
-    <script src="../js/jquery.js"></script>
-    <script type="text/javascript" src="../js/javascript.js"></script>
+    <link href="Downloads/Findo (3)/Findo/WebContent/css/stylesheet.css" rel="stylesheet" />
+    <script src="Downloads/Findo (3)/Findo/WebContent/js/jquery.js"></script>
+    <script type="text/javascript" src="Downloads/Findo (3)/Findo/WebContent/js/javascript.js"></script>
     <script src="https://kit.fontawesome.com/08cf8c1353.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -27,7 +27,7 @@
         <div class="signup_wrapper_container">
 
             <div class="signup_logo">
-                <img src="../images/default.png" />
+                <img src="Downloads/Findo (3)/Findo/WebContent/images/default.png" />
             </div>
             <div class="signup_id">
                 <h3>아이디</h3>

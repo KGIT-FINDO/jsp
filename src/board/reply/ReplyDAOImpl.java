@@ -1,6 +1,7 @@
 package board.reply;
 
 import board.vo.BoardVO;
+import board.vo.ReplyVO;
 
 import javax.naming.Context;
 import javax.naming.InitialContext;
@@ -47,6 +48,33 @@ public class ReplyDAOImpl  {
                 e.printStackTrace();
             }
         }
+
+    }
+
+    public void updateReply(ReplyVO rvo) {
+        try {
+            con = ds.getConnection();
+            sql = "update reply set reply_title=?,reply_cont=? where reply_no=?";
+            pt = con.prepareStatement(sql);//쿼리문을 미리 컴파일 해서 수행할 pt생성
+            pt.setString(1, rvo.getReply_title());
+            pt.setString(2, rvo.getReply_cont());
+            pt.setInt(3, rvo.getReply_no());
+
+
+            pt.executeUpdate();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (pt != null) pt.close();
+                if (con != null) con.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+        }
+
 
     }
 }

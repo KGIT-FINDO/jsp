@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ include file="Downloads/Findo (2)/Findo/WebContent/include/header.jsp"%>
+<%@ include file="Downloads/Findo (3)/Findo/WebContent/include/header.jsp"%>
 
 <div class="company_financial_transation_law_wrapper">
 	<div class="company_financial_transation_law_main">
@@ -232,4 +232,4 @@
 	</div>
 </div>
 
-<%@ include file="Downloads/Findo (2)/Findo/WebContent/include/footer.jsp"%>
+<%@ include file="Downloads/Findo (3)/Findo/WebContent/include/footer.jsp"%>

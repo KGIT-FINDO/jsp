@@ -10,15 +10,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f56adae9-30c8-4715-9a17-541c0af5eb7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/board/reply/ReplyDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/board/reply/replyWrite/ReplyWriteOKController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d/storage_v2/_src_/schema/SYSTEM.L2avkg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d/storage_v2/_src_/schema/SYSTEM.L2avkg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/board/reply/replyEdit/ReplyEditController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/board/vo/ReplyVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/html/company_management_announcement.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/html/company_using_law.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/html/index_community.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/html/index_company.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/html/index_faq.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/html/index_investment.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/html/index_management.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/html/index_news.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/html/index_portfolio.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/html/index_products.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/html/signup_complete.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/originEdit/OriginEditOkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/originEdit/OriginEditOkController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/originWrite/BoardDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/originWrite/BoardDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/originWrite/OriginWriteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/originWrite/OriginWriteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/originWrite/OriginWriteOkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/originWrite/OriginWriteOkController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/board/reply/ReplyDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/reply/ReplyDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/css/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/js/javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/view/bell.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/view/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/view/login_connect.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/view/signin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/view/signup.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/view/signup_agreement.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/company_financial_transation_law.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/company_financial_transation_law.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/company_personal_info_law.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/company_personal_info_law.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/index_bell.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/index_bell.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/index_search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/index_search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/login_connect.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/login_connect.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/signin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/signin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/signup.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/signup_agreement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/signup_agreement.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +297,8 @@
       <workItem from="1663679638824" duration="621000" />
       <workItem from="1663680283717" duration="470000" />
       <workItem from="1663680810604" duration="284000" />
-      <workItem from="1663740463236" duration="5973000" />
+      <workItem from="1663740463236" duration="6220000" />
+      <workItem from="1663934457344" duration="5573000" />
     </task>
     <servers />
   </component>
