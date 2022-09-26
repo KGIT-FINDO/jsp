@@ -9,6 +9,8 @@ import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class ReplyDAOImpl {
@@ -101,4 +103,39 @@ public class ReplyDAOImpl {
         }
 
     }
+
+    public List<ReplyVO> getReplyList(ReplyVO findR) {
+        List<ReplyVO> rlist = new ArrayList<ReplyVO>();
+
+        try{
+            con = ds.getConnection();
+            sql="select * from reply where bno=? order by rno";
+            pt=con.prepareStatement(sql);
+
+            pt.setInt(1, findR.getBoard_ref());
+
+            rs = pt.executeQuery();
+
+            while(rs.next()) {
+                ReplyVO r = new ReplyVO();
+                r.setReply_no(rs.getInt("reply_no"));//board_no컬럼으로 부터 정수 숫자로 번호 레코드값을 가져와
+                //서 setter()메서드에 저장
+                r.setReply_name(rs.getString("reply_name"));
+                r.setReply_title(rs.getString("reply_title"));
+                r.setReply_cont(rs.getString("reply_cont"));
+                r.setReply_date(rs.getString("reply_date"));
+                rlist.add(r);//컬렉션에 추가
+            }
+        }catch(Exception e) {e.printStackTrace();}
+        finally {
+            try {
+                if(rs != null)rs.close();
+                if(pt != null) pt.close();
+                if(con != null) con.close();
+            }catch(Exception e) {e.printStackTrace();}
+        }
+        return rlist;
+    }//getBoardList()
+        }
+
 }

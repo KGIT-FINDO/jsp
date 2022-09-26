@@ -5,7 +5,7 @@ public class ReplyVO {
     String reply_name;
     String reply_title;
     String reply_cont;
-    String board_ref;
+    int board_ref;
     String reply_step;
     String reply_level;
     String reply_date;
@@ -42,11 +42,11 @@ public class ReplyVO {
         this.reply_cont = reply_cont;
     }
 
-    public String getBoard_ref() {
+    public int getBoard_ref() {
         return board_ref;
     }
 
-    public void setBoard_ref(String board_ref) {
+    public void setBoard_ref(int board_ref) {
         this.board_ref = board_ref;
     }
 

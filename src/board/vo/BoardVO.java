@@ -5,7 +5,7 @@ public class BoardVO {
     private String board_name;
     private String board_title;
     private String board_cont;
-    private String board_hit;
+    private int board_hit;
     private String board_date;
 
     //페이징(쪽나누기) 관련 변수
@@ -48,11 +48,11 @@ public class BoardVO {
         this.board_cont = board_cont;
     }
 
-    public String getBoard_hit() {
+    public int getBoard_hit() {
         return board_hit;
     }
 
-    public void setBoard_hit(String board_hit) {
+    public void setBoard_hit(int board_hit) {
         this.board_hit = board_hit;
     }
 
