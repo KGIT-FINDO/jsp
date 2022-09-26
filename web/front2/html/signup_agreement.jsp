@@ -11,7 +11,7 @@
 <body>
 	<div class="wrapper_signup_agreement_form">
 		<div class="signup_agreement_form">
-			<form method="get" action="#" id="signup_agreement_form">
+			<form method="get" action="member_join.do" id="signup_agreement_form">
 				
 				<div>
 					<img src="Downloads/Findo (3)/Findo/WebContent/images/logo_black.png" style="width:300px; height:100px;"/>

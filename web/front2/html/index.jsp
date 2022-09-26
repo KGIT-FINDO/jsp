@@ -60,7 +60,7 @@
 					<p>로그인을 하려면 아래의 버튼을 누르시오</p>
 				</div>
 				<div class="header_bottom_button">
-					<a href="Documents/jsp/web/front2/html/signin.jsp"><input type="button" value="로그인" /></a>
+					<a href="/member_login.do"><input type="button" value="로그인" /></a>
 				</div>
 			</div>
 			<%-- heaer_bottom class 닫는 마지막 /div --%>

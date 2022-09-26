@@ -52,7 +52,7 @@
 			<div class="header_middle">
 				<a href="Documents/jsp/web/front2/html/index.jsp"><input type="button" value="홈" /></a>
 				<a href="#"><input type="button" value="포트폴리오" /></a> 
-				<a href="#"><input type="button" value="커뮤니티" /></a> 
+				<a href="board_list.do"><input type="button" value="커뮤니티" /></a>
 				<a href="#"><input type="button" value="뉴스" /></a>
 			</div>
 

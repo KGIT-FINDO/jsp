@@ -11,7 +11,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
 
-public class ReplyDAOImpl  {
+public class ReplyDAOImpl {
     Connection con = null;
     PreparedStatement pt = null;//쿼리문 수행 pt
     ResultSet rs = null;//검색결과 레코드를 저장할 Rs
@@ -29,22 +29,23 @@ public class ReplyDAOImpl  {
 
     public void insertReply(BoardVO b) {
         try {
-            con=ds.getConnection();
-            sql="insert into reply (reply_no,board_name,board_title,board_cont,board_date)" +
+            con = ds.getConnection();
+            sql = "insert into reply (reply_no,board_name,board_title,board_cont,board_date)" +
                     " values(boardT_no_seq.nextval,?,?,?,sysdate)";
 
-            pt=con.prepareStatement(sql);
+            pt = con.prepareStatement(sql);
             pt.setString(1, b.getBoard_name());
             pt.setString(2, b.getBoard_title());
             pt.setString(3, b.getBoard_cont());
 
             pt.executeUpdate();//저장 쿼리문을 수행
-        }catch(Exception e) {e.printStackTrace();}
-        finally {
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
             try {
-                if(pt != null) pt.close();
-                if(con != null) con.close();
-            }catch(Exception e) {
+                if (pt != null) pt.close();
+                if (con != null) con.close();
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }
@@ -75,6 +76,29 @@ public class ReplyDAOImpl  {
 
         }
 
+
+    }
+
+    public void delReply(int rno) {
+        try {
+            con = ds.getConnection();
+            sql = "delete from reply where rno=?";
+            pt = con.prepareStatement(sql);
+            pt.setInt(1, rno);
+
+            pt.executeUpdate();
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (pt != null) pt.close();
+                if (con != null) con.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
 
     }
 }

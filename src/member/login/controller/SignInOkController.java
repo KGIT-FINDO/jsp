@@ -42,7 +42,7 @@ public class SignInOkController implements Action {
 
                 ActionForward forward = new ActionForward();
                 forward.setRedirect(true);
-                forward.setPath("index.do");
+                forward.setPath("connect.do");
                 return forward;
             }
         }

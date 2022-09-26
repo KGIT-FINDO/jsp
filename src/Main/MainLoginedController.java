@@ -3,17 +3,15 @@ package Main;
 import member.action.Action;
 import member.action.ActionForward;
 
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class MainController extends HttpServlet implements Action {
+public class MainLoginedController implements Action {
     @Override
     public ActionForward execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
-        ActionForward forward =  new ActionForward();
+        ActionForward forward = new ActionForward();
         forward.setRedirect(false);
-        forward.setPath("./front2/html/index.jsp");
+        forward.setPath("./front2/html/login_connect.jsp");
         return forward;
-
     }
 }

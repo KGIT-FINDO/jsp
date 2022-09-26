@@ -13,22 +13,22 @@
 <script src="https://kit.fontawesome.com/08cf8c1353.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	<form method="post" action="#">
+	<form method="post" action="member_login_ok.do">
 		<%-- 전체를 움직이고 싶으면 login class 를 이용하기 --%>
 		<div class="wrapper_login">
 	
 			<div class="signin_logo">
-				<a href="Documents/jsp/web/front2/html/index.jsp"><img src="Downloads/Findo (3)/Findo/WebContent/images/logo_black.png" /></a>
+				<a href="index.do"><img src="Downloads/Findo (3)/Findo/WebContent/images/logo_black.png" /></a>
 			</div>
 			
 			<%-- signin_main 전체를 움직이는 class --%>
 			<div class="signin_main">
 				<div class="signin_main_login">로그인</div>
 				<div class="signin_main_login_id">
-					<input type="text" size="24" placeholder="ID" maxlength="20" required />
+					<input type="text" size="24" id="id" name="id" placeholder="ID" maxlength="20" required />
 				</div>
 				<div class="signin_main_login_password">
-					<input type="password" size="24" placeholder="Password" maxlength="20" required />
+					<input type="password" size="24" id="password" name="password" placeholder="Password" maxlength="20" required />
 				</div>
 				<div class="signin_main_login">
 					<div>로그인 상태유지</div>
@@ -43,7 +43,7 @@
 			<div class="signin_search">
 				<li><a href="#">비밀번호 찾기 </a> | </li>
 				<li><a href="#">아이디찾기 </a> | </li>
-				<li><a href="Documents/jsp/web/front2/html/signup_agreement.jsp">회원가입</a></li>
+				<li><a href="member_join_agree.do">회원가입</a></li>
 			</div>
 			
 			<div class="signin_advertisement">
