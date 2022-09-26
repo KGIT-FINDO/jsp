@@ -10,20 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f56adae9-30c8-4715-9a17-541c0af5eb7e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/css/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signup.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/javascript/javascript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/javascript/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front2/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/css/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front2/html/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front2/html/signin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/signin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front2/html/signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/signup.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front2/javascript/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/js/javascript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front2/javascript/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/index_community.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/index_community.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,7 +268,7 @@
       <workItem from="1663934457344" duration="5629000" />
       <workItem from="1664173465610" duration="11010000" />
       <workItem from="1664185972182" duration="130000" />
-      <workItem from="1664186325402" duration="4537000" />
+      <workItem from="1664186325402" duration="4905000" />
     </task>
     <servers />
   </component>
