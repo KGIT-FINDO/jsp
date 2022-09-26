@@ -5,6 +5,11 @@
 # Compiled class file
 *.class
 
+#사진파일
+*.png
+*.jpg
+*.gif
+
 # Log file
 *.log
 

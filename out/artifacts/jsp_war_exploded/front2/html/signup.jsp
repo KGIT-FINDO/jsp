@@ -14,9 +14,9 @@
 	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 	integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
 	crossorigin="anonymous"></script>
-<link href="Downloads/Findo (3)/Findo/WebContent/css/stylesheet.css" rel="stylesheet" />
-<script src="Downloads/Findo (3)/Findo/WebContent/js/jquery.js"></script>
-<script type="text/javascript" src="Downloads/Findo (3)/Findo/WebContent/js/javascript.js"></script>
+<link href="/front2/css/stylesheet.css" rel="stylesheet" />
+<script src="/front2/js/jquery.js"></script>
+<script type="text/javascript" src="/front2/js/javascript.js"></script>
 <script src="https://kit.fontawesome.com/08cf8c1353.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -26,7 +26,7 @@
 			<div class="signup_wrapper_container">
 
 				<div class="signup_logo">
-					<a href="Documents/jsp/web/front2/html/index.jsp"><img src="Downloads/Findo (3)/Findo/WebContent/images/logo_black.png" /></a>
+					<a href="/front2/html/index.jsp"><img src="/front2/images/logo_black.png" /></a>
 				</div>
 				<div class="signup_id">
 					<h5>아이디</h5>
@@ -96,14 +96,14 @@
 				</div>
 
 				<div class="signup_button">
-					<input type="submit" value="가입하기"  onclick="location.href='Documents/jsp/web/front2/html/signup_complete.jsp';" />
+					<input type="submit" value="가입하기"  onclick="location.href='/front2/html/signup_complete.jsp';" />
 				</div>
 
 
 				<div class="signup_law">
-					<li><a href="Documents/jsp/web/front2/html/company_using_law.jsp">이용약관 </a> |</li>
-					<li><a href="Documents/jsp/web/front2/html/company_personal_info_law.jsp">개인정보처리방침 </a> |</li>
-					<li><a href="Documents/jsp/web/front2/html/company_financial_transation_law.jsp">책임의 한계와 법적고지 </a> |</li>
+					<li><a href="/front2/html/company_using_law.jsp">이용약관 </a> |</li>
+					<li><a href="/front2/html/company_personal_info_law.jsp">개인정보처리방침 </a> |</li>
+					<li><a href="/front2/html/company_financial_transation_law.jsp">책임의 한계와 법적고지 </a> |</li>
 					<li><a href="#">회원정보 고객센터</a></li>
 				</div>
 

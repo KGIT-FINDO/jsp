@@ -10,29 +10,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f56adae9-30c8-4715-9a17-541c0af5eb7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main/MainLoginedController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/board/OriginList/GetOriginList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/board/reply/replyDelete/ReplyDeleteOKController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/css/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index_bell.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index_bell.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index_search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index_search.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/login_connect.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/login_connect.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signin.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signup.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signup_agreement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signup_agreement.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/ContController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/ContController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/reply/ReplyDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/reply/ReplyDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/reply/replyEdit/ReplyEditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/reply/replyEdit/ReplyEditController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/member/login/controller/SignInOkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/login/controller/SignInOkController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/javascript/javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/javascript/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/css/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/front2/html/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front2/html/index_community.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/index_community.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front2/html/login_connect.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/login_connect.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/front2/html/signin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/signin.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/front2/html/signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/signup.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front2/html/signup_agreement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/signup_agreement.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/javascript/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/js/javascript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/javascript/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/js/jquery.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +88,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -110,11 +101,11 @@
       <recent name="$PROJECT_DIR$/static/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/front2/css" />
+      <recent name="$PROJECT_DIR$/web/front2" />
       <recent name="$PROJECT_DIR$/web" />
       <recent name="$PROJECT_DIR$/web/front2/html" />
       <recent name="$PROJECT_DIR$/web/jsp/signIn" />
-      <recent name="$PROJECT_DIR$/static/css" />
-      <recent name="$PROJECT_DIR$/static/js" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.64">
@@ -288,7 +279,9 @@
       <workItem from="1663680810604" duration="284000" />
       <workItem from="1663740463236" duration="6220000" />
       <workItem from="1663934457344" duration="5629000" />
-      <workItem from="1664173465610" duration="7941000" />
+      <workItem from="1664173465610" duration="11010000" />
+      <workItem from="1664185972182" duration="130000" />
+      <workItem from="1664186325402" duration="4537000" />
     </task>
     <servers />
   </component>
