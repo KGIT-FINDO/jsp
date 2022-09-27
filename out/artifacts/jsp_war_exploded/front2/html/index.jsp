@@ -47,10 +47,10 @@
 			<%-- block --%>
 
 			<div class="header_middle">
-				<a href="Documents/jsp/web/front2/html/index.jsp"><input type="button" value="홈" /></a> <a
-					href="Documents/jsp/web/front2/html/index_portfolio.jsp"><input type="button" value="포트폴리오" /></a>
-				<a href="Documents/jsp/web/front2/html/index_community.jsp"><input type="button"
-                                                                                   value="커뮤니티" /></a> <a href="Documents/jsp/web/front2/html/index_news.jsp"><input
+				<a href="index.do"><input type="button" value="홈" /></a> <a
+					href="portfolio.do"><input type="button" value="포트폴리오" /></a>
+				<a href="board_list.do"><input type="button"
+                                                                                   value="커뮤니티" /></a> <a href="board_list.do"><input
 					type="button" value="뉴스" /></a>
 			</div>
 
@@ -98,14 +98,18 @@
 			<div class="main_up_middle"></div>
 			<div class="main_up_middle_top" style="cursor: pointer;"
 				onclick="location.href='https://www.apple.com/kr/?afid=p238%7CsiADh6hbK-dc_mtid_18707vxu38484_pcrid_620523511820_pgrid_16348496961_pntwk_g_pchan__pexid__&cid=aos-kr-kwgo-Brand--slid---product-';"></div>
-			<div class="main_up_middle_middle">5</div>
+				<div class="main_up_middle_middle">
+					<img src="/front2/images/tmp.gif" style="width:400px; height:300px; margin-bottom:300px; border-radius: 16px;"/>
+				</div>
 			<div class="main_up_middle_bottom" style="cursor: pointer;"
 				onclick="location.href='https://www.bhc.co.kr/mobile/';"></div>
 
 			<%-- main_middle 움지이고 싶으면 main_middle 이용하기 --%>
 			<div class="main_middle"></div>
 			<div class="main_middle_top"></div>
-			<div class="main_middle_middle">8</div>
+				<div class="main_middle_middle">
+					<img src="/front2/images/money1.gif" style="width:400px; height:300px; margin-bottom:300px; border-radius: 16px;"/>
+				</div>
 			<div class="main_middle_bottom" style="cursor: pointer;"
 				onclick="location.href='https://goodrichmall.com/total_sum?inType=GKAB&gclid=EAIaIQobChMIgKTzh-eY-gIV1KmWCh24rAiZEAAYASAAEgLn_PD_BwE';"></div>
 

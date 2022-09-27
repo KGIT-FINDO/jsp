@@ -5,8 +5,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Findo</title>
-<link href="Downloads/Findo (3)/Findo/WebContent/css/stylesheet.css" rel="stylesheet" />
-<script src="Downloads/Findo (3)/Findo/WebContent/js/jquery.js"></script>
+<link href="/front2/css/stylesheet.css" rel="stylesheet" />
+<script src="/front2/js/jquery.js"></script>
 </head>
 <body>
 	<div class="wrapper_signup_agreement_form">
@@ -14,7 +14,7 @@
 			<form method="get" action="member_join.do" id="signup_agreement_form">
 				
 				<div>
-					<img src="Downloads/Findo (3)/Findo/WebContent/images/logo_black.png" style="width:300px; height:100px;"/>
+					<img src="/front2/images/logo_black.png" style="width:300px; height:100px;"/>
 				</div>
 				<h2>회원가입</h2>
 				<div>
@@ -538,6 +538,6 @@
 			</form>
 		</div>
 	</div>
-	<script type="text/javascript" src="Downloads/Findo (3)/Findo/WebContent/js/javascript.js"></script>
+	<script type="text/javascript" src="/front2/js/javascript.js"></script>
 </body>
 </html>

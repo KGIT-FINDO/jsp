@@ -47,7 +47,7 @@
 			</div>
 			
 			<div class="signin_advertisement">
-				<a href="https://rolls-roycemotorcars-apac.com/kr/?utm_source=google&utm_medium=cpc&utm_campaign=2022-MARCH_ALWAYSON_KR_SEM_CONV_BRAND-EXACT&utm_content=2022-MARCH_ALWAYSON_KR_SEM_CONV_BRAND-EXACT_Rolls%20Royce%20Exact%20KR&gclid=EAIaIQobChMI6LPe5tmY-gIVotdMAh2GYQNSEAAYASAAEgJ3cfD_BwE"><img src="Downloads/Findo (3)/Findo/WebContent/images/car.jpg" /></a>
+				<a href="https://rolls-roycemotorcars-apac.com/kr/?utm_source=google&utm_medium=cpc&utm_campaign=2022-MARCH_ALWAYSON_KR_SEM_CONV_BRAND-EXACT&utm_content=2022-MARCH_ALWAYSON_KR_SEM_CONV_BRAND-EXACT_Rolls%20Royce%20Exact%20KR&gclid=EAIaIQobChMI6LPe5tmY-gIVotdMAh2GYQNSEAAYASAAEgJ3cfD_BwE"><img src="/front2/images/car.jpg" /></a>
 			</div>
 			
 			<%-- signin_law 전체를 움직이는 class --%>

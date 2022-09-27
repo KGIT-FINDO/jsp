@@ -4,18 +4,18 @@
 <head>
 <meta charset="UTF-8">
 <title>Findo</title>
-<link href="Downloads/Findo (3)/Findo/WebContent/css/stylesheet.css" rel="stylesheet" />
+<link href="/front2/css/stylesheet.css" rel="stylesheet" />
 </head>
 <body>
 	<div class="signup_complete_wrapper">
 		<div class="signup_complete_top">
-			<img src="Downloads/Findo (3)/Findo/WebContent/images/logo_black.png" alt="logo_black" />
+			<img src="/front2/images/logo_black.png" alt="logo_black" />
 		</div>
 		<div class="signup_complete_middle">
 			<p>회원가입이 완료되었습니다.</p>
 		</div>
 		<div class="signup_complete_middle_homebutton">
-			<a href="Documents/jsp/web/front2/html/index.jsp"><button>HOME</button></a>
+			<a href="/front2/html/index.jsp"><button>HOME</button></a>
 		</div>
 		<div class="signup_complete_bottom">
 			<li><a href="#">이용약관 </a> | </li>

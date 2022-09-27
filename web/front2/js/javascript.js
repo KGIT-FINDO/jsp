@@ -83,7 +83,7 @@ function signup_email_text_confirm() {
 			}
 			
 			if (signup_agreement_form_data['check1'] && signup_agreement_form_data['check2']) {
-				location.replace('signup.jsp')
+				 location.replace('member_join.do');
 				return true;
 			}
 

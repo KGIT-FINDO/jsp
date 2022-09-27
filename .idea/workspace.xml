@@ -10,15 +10,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f56adae9-30c8-4715-9a17-541c0af5eb7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/board/OriginList/OriginListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/board/reply/replyList/ReplyListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/news/controller/NewsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/portfolio/controller/PortfolioController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/OriginList/GetOriginList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/originWrite/BoardDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/originWrite/BoardDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index_news.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index_news.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index_portfolio.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index_portfolio.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/login_connect.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/login_connect.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signup_agreement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signup_agreement.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signup_complete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signup_complete.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/js/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/js/javascript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/include/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/include/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/include/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/include/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/board/OriginList/OriginListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/OriginList/OriginListController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/board/reply/ReplyDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/reply/ReplyDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/vo/BoardVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/vo/BoardVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/vo/ReplyVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/vo/ReplyVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front2/html/index_news.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/index_news.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/index_portfolio.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/index_portfolio.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/login_connect.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/login_connect.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/signin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/signin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/signup_agreement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/signup_agreement.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/signup_complete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/signup_complete.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/js/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/js/javascript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/include/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/include/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/include/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/include/header.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +291,9 @@
       <workItem from="1663934457344" duration="5629000" />
       <workItem from="1664173465610" duration="11010000" />
       <workItem from="1664185972182" duration="130000" />
-      <workItem from="1664186325402" duration="11758000" />
+      <workItem from="1664186325402" duration="11843000" />
+      <workItem from="1664260786009" duration="5674000" />
+      <workItem from="1664266633653" duration="1483000" />
     </task>
     <servers />
   </component>

@@ -55,7 +55,7 @@ public class OriginListController implements Action {
         ActionForward forward = new ActionForward();
 
         forward.setRedirect(false);
-        forward.setPath("./view/board/board_list.jsp");
+        forward.setPath("./front2/html/index_community.jsp");
 
         return forward;
     }
