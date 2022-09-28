@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ include file="Downloads/Findo (3)/Findo/WebContent/include/header.jsp" %>
+<%@ include file="/include/header.jsp" %>
 
 <div class="index_company_wrapper">
 	<h5>Findo에 오신걸 환영합니다.</h5>
@@ -25,4 +25,4 @@
 	
 </div>
 
-<%@ include file="Downloads/Findo (3)/Findo/WebContent/include/footer.jsp" %>
+<%@ include file="/include/footer.jsp" %>

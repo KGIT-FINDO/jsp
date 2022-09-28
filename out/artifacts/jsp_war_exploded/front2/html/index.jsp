@@ -15,9 +15,9 @@
 	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 	integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
 	crossorigin="anonymous"></script>
-<link rel="stylesheet" href="front2/css/stylesheet.css" />
-<script src="front2/js/jquery.js"></script>
-<script type="text/javascript" src="front2/js/javascript.js"></script>
+<link rel="stylesheet" href="/front2/css/stylesheet.css" />
+<script src="/front2/js/jquery.js"></script>
+<script type="text/javascript" src="/front2/js/javascript.js"></script>
 <script src="https://kit.fontawesome.com/08cf8c1353.js"
 	crossorigin="anonymous"></script>
 </head>
@@ -47,15 +47,19 @@
 			<%-- block --%>
 
 			<div class="header_middle">
-				<a href="index.do"><input type="button" value="홈" /></a> <a
-					href="portfolio.do"><input type="button" value="포트폴리오" /></a>
-				<a href="board_list.do"><input type="button"
-                                                                                   value="커뮤니티" /></a> <a href="board_list.do"><input
-					type="button" value="뉴스" /></a>
+				<a href="/front2/html/index.jsp"><input type="button" value="홈" /></a>
+				<a href="/front2/html/index_portfolio.jsp"><input type="button" value="포트폴리오" /></a>
+				<a href="/front2/html/index_community.jsp"><input type="button" value="커뮤니티" /></a>
+				<a href="/front2/html/index_news.jsp"><input type="button" value="뉴스" /></a>
 			</div>
 
 			<div class="header_bottom">
-
+                <%
+                    if(session.getAttribute("id") != null) {
+                        String nick = (String)session.getAttribute("id");
+                %>
+                <p style="text-align: center;"><%=nick%> 님이 로그인 중입니다.</p>
+                <%} else {%>
 				<div class="header_bottom_write">
 					<p>로그인을 하려면 아래의 버튼을 누르시오</p>
 				</div>
@@ -64,7 +68,7 @@
 				</div>
 			</div>
 			<%-- heaer_bottom class 닫는 마지막 /div --%>
-
+            <%}%>
 		</div>
 		<%-- header class 닫는 마지막 /div --%>
 
@@ -78,20 +82,20 @@
 
 			<%-- main_top 움직이고 싶으면 main_top 이용하기 --%>
 			<div class="main_top" style="cursor: pointer;"
-				onclick="location.href='Documents/jsp/web/front2/html/index_company.jsp';">
-				<a href="Documents/jsp/web/front2/html/index_company.jsp">자산배분 및 포트폴리오 전략 목돈마련</a>
+				onclick="location.href='/front2/html/index_company.jsp';">
+				<a href="/front2/html/index_company.jsp">자산배분 및 포트폴리오 전략 목돈마련</a>
 			</div>
 			<div class="main_top_top" style="cursor: pointer;"
-				onclick="location.href='Documents/jsp/web/front2/html/index_products.jsp';">
-				<a href="Documents/jsp/web/front2/html/index_company.jsp">최적의 자산 운용 서비스의 개시</a>
+				onclick="location.href='/front2/html/index_products.jsp';">
+				<a href="/front2/html/index_products.jsp">최적의 자산 운용 서비스의 개시</a>
 			</div>
 			<div class="main_top_middle" style="cursor: pointer;"
-				onclick="location.href='Documents/jsp/web/front2/html/index_management.jsp';">
-				<a href="Documents/jsp/web/front2/html/index_management.jsp">차별화된 전략을 통한 자산관리 서비스</a>
+				onclick="location.href='/front2/html/index_management.jsp';">
+				<a href="/front2/html/index_management.jsp">차별화된 전략을 통한 자산관리 서비스</a>
 			</div>
 			<div class="main_top_bottom" style="cursor: pointer;"
-				onclick="location.href='Documents/jsp/web/front2/html/index_investment.jsp';">
-				<a href="Documents/jsp/web/front2/html/index_investment.jsp">글로벌화된 자산시장에 투자</a>
+				onclick="location.href='/front2/html/index_investment.jsp';">
+				<a href="/front2/html/index_investment.jsp">글로벌화된 자산시장에 투자</a>
 			</div>
 
 			<%-- main_middle 움지이고 싶으면 main_middle 이용하기 --%>
@@ -131,15 +135,15 @@
 			<div class="footer_top">
 				<div class="footer_top_list">
 					<li><a href="#">Home</a></li>
-					<li><a href="Documents/jsp/web/front2/html/index_company.jsp">Company</a></li>
+					<li><a href="/front2/html/index_company.jsp">Company</a></li>
 				</div>
 				<div class="footer_top_list">
-					<li><a href="Documents/jsp/web/front2/html/index_investment.jsp">Investment</a></li>
-					<li><a href="Documents/jsp/web/front2/html/index_products.jsp">Products</a></li>
+					<li><a href="/front2/html/index_investment.jsp">Investment</a></li>
+					<li><a href="/front2/html/index_products.jsp">Products</a></li>
 				</div>
 				<div class="footer_top_list">
-					<li><a href="Documents/jsp/web/front2/html/index_faq.jsp">FAQ</a></li>
-					<li><a href="Documents/jsp/web/front2/html/index_management.jsp">Management</a></li>
+					<li><a href="/front2/html/index_faq.jsp">FAQ</a></li>
+					<li><a href="/front2/html/index_management.jsp">Management</a></li>
 				</div>
 			</div>
 
@@ -149,12 +153,12 @@
 			<div class="footer_bottom">
 
 				<div class="footer_bottom_top_list">
-					<li><a href="Documents/jsp/web/front2/html/company_using_law.jsp">핀도이용약관</a></li>
-					<li><a href="Documents/jsp/web/front2/html/company_financial_transation_law.jsp">전자금융거래이용약관</a></li>
+					<li><a href="/front2/html/company_using_law.jsp">핀도이용약관</a></li>
+					<li><a href="/front2/html/company_financial_transation_law.jsp">전자금융거래이용약관</a></li>
 				</div>
 				<div class="footer_bottom_top_list">
-					<li><a href="Documents/jsp/web/front2/html/company_personal_info_law.jsp">개인정보처리방침</a></li>
-					<li><a href="Documents/jsp/web/front2/html/company_management_announcement.jsp">경영공지</a></li>
+					<li><a href="/front2/html/company_personal_info_law.jsp">개인정보처리방침</a></li>
+					<li><a href="/front2/html/company_management_announcement.jsp">경영공지</a></li>
 				</div>
 			</div>
 

@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ include file="Downloads/Findo (3)/Findo/WebContent/include/header.jsp" %>
+<%@ include file="/include/header.jsp" %>
 
 <div class="index_product_wrapper">
 	<div class="index_product_main_top"></div>
@@ -22,4 +22,4 @@
 	<p>본사 투자자산운용사가 고객별로 운용하며<br/> 글로벌 시장에 상장된 ETP를 활용하여 주식과 채권 자산에 투자</p>
 </div>
 
-<%@ include file="Downloads/Findo (3)/Findo/WebContent/include/footer.jsp" %>
+<%@ include file="/include/footer.jsp" %>
