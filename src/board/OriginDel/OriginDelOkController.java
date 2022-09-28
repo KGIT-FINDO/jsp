@@ -1,9 +1,8 @@
 package board.OriginDel;
 
-import board.originWrite.BoardDAOImpl;
+import board.OriginWrite.BoardDAOImpl;
 import member.action.Action;
 import member.action.ActionForward;
-import board.vo.BoardVO;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

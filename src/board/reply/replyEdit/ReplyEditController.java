@@ -1,8 +1,6 @@
 package board.reply.replyEdit;
 
-import board.originWrite.BoardDAOImpl;
 import board.reply.ReplyDAOImpl;
-import board.vo.BoardVO;
 import board.vo.ReplyVO;
 import member.action.Action;
 import member.action.ActionForward;

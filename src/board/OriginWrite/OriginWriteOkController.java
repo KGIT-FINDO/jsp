@@ -1,4 +1,4 @@
-package board.originWrite;
+package board.OriginWrite;
 
 import board.vo.BoardVO;
 import member.action.Action;

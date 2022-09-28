@@ -52,17 +52,29 @@
 			<div class="header_middle">
 				<a href="index.do"><input type="button" value="홈" /></a>
 				<a href="portfolio.do"><input type="button" value="포트폴리오" /></a>
-				<a href="board_list.do"><input type="button" value="커뮤니티" /></a>
+				<a href="/front2/html/index_community.jsp"><input type="button" value="커뮤니티" /></a>
 				<a href="news.do"><input type="button" value="뉴스" /></a>
 			</div>
 
+			<%
+				if(session.getAttribute("id") != null) {
+					String nick = (String)session.getAttribute("id");
+			%>
+			<p style="text-align: center;"><%=nick%> 님이 로그인 중입니다.</p>
+			<%} else {%>
 			<div class="header_bottom">
 
-				<div class="header_bottom_login_connection">
-					<p>홍길동님 반갑습니다.</p>
-					<div class="header_bottom_login_connection_main"></div>
+				<div class="header_bottom_write">
+					<p>로그인을 하려면 아래의 버튼을 누르시오</p>
+				</div>
+				<div class="header_bottom_button">
+					<a href="/member_login.do"><input type="button" value="로그인" /></a>
 				</div>
 			</div>
+			<%-- heaer_bottom class 닫는 마지막 /div --%>
+
+		</div>
+			<% } %>
 			<%-- heaer_bottom class 닫는 마지막 /div --%>
 
 		</div>
