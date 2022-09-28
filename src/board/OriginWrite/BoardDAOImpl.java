@@ -1,4 +1,4 @@
-package board.originWrite;
+package board.OriginWrite;
 
 import board.vo.BoardVO;
 
@@ -138,7 +138,6 @@ public class BoardDAOImpl {
 
         try {
             con=ds.getConnection();
-
             sql="select * from (select rowNum rNum,board_no,board_name,board_title,"
                     +"board_hit,board_date from (select * from board ";
             if(findB.getFind_field() == null) {//검색전

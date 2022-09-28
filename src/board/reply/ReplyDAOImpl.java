@@ -109,7 +109,7 @@ public class ReplyDAOImpl {
 
         try{
             con = ds.getConnection();
-            sql="select * from reply where bno=? order by rno";
+            sql="select * from reply where board_ref=? order by reply_no";
             pt=con.prepareStatement(sql);
 
             pt.setInt(1, findR.getBoard_ref());

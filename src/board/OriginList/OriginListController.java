@@ -1,6 +1,6 @@
 package board.OriginList;
 
-import board.originWrite.BoardDAOImpl;
+import board.OriginWrite.BoardDAOImpl;
 import board.reply.ReplyDAOImpl;
 import board.vo.BoardVO;
 import board.vo.ReplyVO;

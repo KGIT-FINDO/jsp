@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -52,7 +53,12 @@
 				<a href="/front2/html/index_community.jsp"><input type="button" value="커뮤니티" /></a>
 				<a href="/front2/html/index_news.jsp"><input type="button" value="뉴스" /></a>
 			</div>
-
+			<%
+				if(session.getAttribute("id") != null) {
+				String nick = (String)session.getAttribute("id");
+			%>
+			<p style="text-align: center;"><%=nick%> 님이 로그인 중입니다.</p>
+			<%} else {%>
 			<div class="header_bottom">
                 <%
                     if(session.getAttribute("id") != null) {
@@ -70,6 +76,7 @@
 			<%-- heaer_bottom class 닫는 마지막 /div --%>
             <%}%>
 		</div>
+			<% } %>
 		<%-- header class 닫는 마지막 /div --%>
 
 

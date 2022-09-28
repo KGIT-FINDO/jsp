@@ -1,6 +1,5 @@
 package board.reply.replyWrite;
 
-import board.originWrite.BoardDAOImpl;
 import board.reply.ReplyDAOImpl;
 import board.vo.BoardVO;
 import member.action.Action;

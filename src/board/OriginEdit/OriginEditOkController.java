@@ -1,6 +1,6 @@
-package board.originEdit;
+package board.OriginEdit;
 
-import board.originWrite.BoardDAOImpl;
+import board.OriginWrite.BoardDAOImpl;
 import board.vo.BoardVO;
 import member.action.Action;
 import member.action.ActionForward;
