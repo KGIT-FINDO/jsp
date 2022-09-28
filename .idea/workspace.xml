@@ -10,28 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f56adae9-30c8-4715-9a17-541c0af5eb7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/news/controller/NewsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/portfolio/controller/PortfolioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index_news.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index_news.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index_portfolio.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index_portfolio.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/login_connect.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/login_connect.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signup_agreement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signup_agreement.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signup_complete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signup_complete.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/js/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/js/javascript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/include/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/include/footer.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/include/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/include/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/OriginList/OriginListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/OriginList/OriginListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/reply/ReplyDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/reply/ReplyDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/member/login/controller/LoginConnectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/login/controller/LoginConnectController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/front2/html/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front2/html/index_portfolio.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/index_portfolio.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front2/html/login_connect.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/login_connect.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front2/html/signin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/signin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front2/html/signup_agreement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/signup_agreement.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front2/html/signup_complete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/signup_complete.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front2/js/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/js/javascript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/include/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/include/footer.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/include/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/include/header.jsp" afterDir="false" />
     </list>
@@ -81,28 +68,15 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="oracle" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/WEB-INF" />
@@ -111,11 +85,11 @@
       <recent name="$PROJECT_DIR$/static/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/front2/images" />
       <recent name="$PROJECT_DIR$/web/front2/css" />
       <recent name="$PROJECT_DIR$/web/front2" />
       <recent name="$PROJECT_DIR$/web" />
       <recent name="$PROJECT_DIR$/web/front2/html" />
-      <recent name="$PROJECT_DIR$/web/jsp/signIn" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.64">
@@ -293,7 +267,10 @@
       <workItem from="1664185972182" duration="130000" />
       <workItem from="1664186325402" duration="11843000" />
       <workItem from="1664260786009" duration="5674000" />
-      <workItem from="1664266633653" duration="1483000" />
+      <workItem from="1664266633653" duration="4079000" />
+      <workItem from="1664271501864" duration="103000" />
+      <workItem from="1664271686971" duration="905000" />
+      <workItem from="1664272762710" duration="1183000" />
     </task>
     <servers />
   </component>
@@ -310,6 +287,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

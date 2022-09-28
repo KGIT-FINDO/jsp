@@ -37,9 +37,9 @@
 				</div>
 				<div class="header_top_logo"></div>
 				<div class="header_top_icons">
-					<a href="Documents/jsp/web/front2/html/index_bell.jsp"><button id="header_top_bell">
+					<a href="/front2/html/index_bell.jsp"><button id="header_top_bell">
 							<i class="fa-solid fa-bell fa-2x"></i>
-						</button></a> <a href="Documents/jsp/web/front2/html/index_search.jsp"><button id="header_top_search">
+						</button></a> <a href="/front2/html/index_search.jsp"><button id="header_top_search">
 							<i class="fa-solid fa-magnifying-glass fa-2x"></i>
 						</button></a>
 				</div>

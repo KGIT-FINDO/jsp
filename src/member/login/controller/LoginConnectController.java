@@ -16,7 +16,7 @@ public class LoginConnectController implements Action {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         HttpSession session = request.getSession();//세션 객체 생성
-        String id=(String) session.getAttribute("id");//세션아이디 저장
+        String id=(String) session.getAttribute("id") ;//세션아이디 저장
         if(id == null){
             out.println("<script>");
             out.println("alert('다시 로그인 하세요');");
