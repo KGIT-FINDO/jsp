@@ -7,7 +7,7 @@
 
         <div id="bWrite_wrap">
         <h2 class="bWrite_title">게시판 글쓰기</h2>
-        <form method="post" action="board_write_ok.do"
+        <form method="post" action="/board_write_ok.do"
               onsubmit="return bw_check();">
             <table id="bWrite_t">
                 <tr>

@@ -1,4 +1,4 @@
-package board.OriginWrite;
+package board.originWrite;
 
 import board.vo.BoardVO;
 
@@ -30,8 +30,8 @@ public class BoardDAOImpl {
     public void insertBoard(BoardVO b) {
         try {
             con=ds.getConnection();
-            sql="insert into boardT (board_no,board_name,board_title,board_cont,board_date)" +
-                    " values(boardT_no_seq.nextval,?,?,?,sysdate)";
+            sql="insert into board (board_no,board_name,board_title,board_cont,board_date)" +
+                    " values(board_seq.nextval,?,?,?,sysdate)";
 
             pt=con.prepareStatement(sql);
             pt.setString(1, b.getBoard_name());
@@ -53,13 +53,11 @@ public class BoardDAOImpl {
     public void updateBoard(BoardVO eb) {
         try {
             con = ds.getConnection();
-            sql = "update memberT set board_title=?,board_cont=? where board_no=?";
+            sql = "update member set board_title=?,board_cont=? where board_no=?";
             pt = con.prepareStatement(sql);//쿼리문을 미리 컴파일 해서 수행할 pt생성
             pt.setString(1, eb.getBoard_title());
             pt.setString(2, eb.getBoard_cont());
             pt.setInt(3, eb.getBoard_no());
-
-
             pt.executeUpdate();
 
         } catch (Exception e) {
@@ -78,7 +76,7 @@ public class BoardDAOImpl {
     public void delBoard(int board_no) {
         try{
             con = ds.getConnection();
-            sql = "delete from boardT where board_no=?";
+            sql = "delete from board where board_no=?";
             pt=con.prepareStatement(sql);
             pt.setInt(1, board_no);
 
@@ -147,7 +145,7 @@ public class BoardDAOImpl {
             }else if(findB.getFind_field().equals("board_cont")) {//글내용을 검색할 경우
                 sql+=" where board_cont like ?";
             }
-            sql+=" order by board_ref desc,board_level asc)) where rNum >= ? and rNum<=?";
+            sql+=")) where rNum >= ? and rNum<=? order by board_no desc";
             /* 페이징과 검색관련 쿼리문. rowNum컬럼은 오라클에서 테이블 생성시 추가해 주는 컬럼으로 최초 레코드 저장시
              * 일련 번호값이 알아서 저장된다.rNum은 rowNum컬럼의 별칭이름이다.
              */
@@ -189,4 +187,54 @@ public class BoardDAOImpl {
         }
         return blist;
     }//getBoardList()
+
+    public BoardVO getBoardCont(int board_no) {
+        BoardVO bc = null;
+        try {
+            con = ds.getConnection();
+            sql = "select * from board where board_no=?";
+            pt = con.prepareStatement(sql);
+            pt.setInt(1, board_no);
+            rs = pt.executeQuery();
+
+            if(rs.next()){
+                bc = new BoardVO();
+                bc.setBoard_no(rs.getInt("board_no"));
+                bc.setBoard_name(rs.getString("board_name"));
+                bc.setBoard_title(rs.getString("board_title"));
+                bc.setBoard_cont(rs.getString("board_cont"));
+                bc.setBoard_hit(rs.getInt("board_hit"));
+            }
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }finally {
+            try{
+                if(rs != null) rs.close();
+                if(pt != null) pt.close();
+                if(con != null) con.close();
+            }catch (Exception e){
+                e.printStackTrace();
+            }
+        }
+        return  bc;
+
+    }
+
+    public void updateHit(int board_no) {
+        try{
+            con = ds.getConnection();
+            sql="update board set board_hit=board_hit+1 where board_no = ?";
+            pt = con.prepareStatement(sql);
+            pt.setInt(1, board_no);
+            pt.executeUpdate();
+
+        } catch (Exception e){e.printStackTrace();}
+        finally {
+            try{
+                if(pt != null) pt.close();
+                if(con != null) con.close();
+            }catch (Exception e){e.printStackTrace();}
+        }
+    }
 }

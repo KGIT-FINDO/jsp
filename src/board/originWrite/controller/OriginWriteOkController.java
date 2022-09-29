@@ -1,5 +1,6 @@
-package board.OriginWrite;
+package board.originWrite.controller;
 
+import board.originWrite.BoardDAOImpl;
 import board.vo.BoardVO;
 import member.action.Action;
 import member.action.ActionForward;
@@ -19,6 +20,9 @@ public class OriginWriteOkController implements Action {
         String board_name = (String) session.getAttribute("id");
         String board_title = request.getParameter("board_title");
         String board_cont = request.getParameter("board_cont");
+
+        out.println(board_title);
+        out.println(board_cont);
 
         if (board_name == null) {
             out.println("<script>");

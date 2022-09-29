@@ -43,7 +43,7 @@ public class SignUpOkController implements Action {
         if(re == 1){
             ActionForward forward = new ActionForward();
             forward.setRedirect(true);//새로운 매핑주소로 이동
-            forward.setPath("member_login.do");
+            forward.setPath("/front2/html/signup_complete.jsp");
             return forward;
         }
 

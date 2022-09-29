@@ -43,6 +43,7 @@
 						</button></a> <a href="/front2/html/index_search.jsp"><button id="header_top_search">
 							<i class="fa-solid fa-magnifying-glass fa-2x"></i>
 						</button></a>
+					<a href="/front2/html/logout.jsp"><button><i class="fa-solid fa-right-to-bracket fa-2x"></i></button></a>
 				</div>
 			</div>
 			<%-- block --%>
@@ -50,7 +51,7 @@
 			<div class="header_middle">
 				<a href="/front2/html/index.jsp"><input type="button" value="홈" /></a>
 				<a href="/front2/html/index_portfolio.jsp"><input type="button" value="포트폴리오" /></a>
-				<a href="/front2/html/index_community.jsp"><input type="button" value="커뮤니티" /></a>
+				<a href="/board_list.do"><input type="button" value="커뮤니티" /></a>
 				<a href="/front2/html/index_news.jsp"><input type="button" value="뉴스" /></a>
 			</div>
 			<%

@@ -1,6 +1,6 @@
-package board.OriginList;
+package board.originList.controller;
 
-import board.OriginWrite.BoardDAOImpl;
+import board.originWrite.BoardDAOImpl;
 import board.reply.ReplyDAOImpl;
 import board.vo.BoardVO;
 import board.vo.ReplyVO;
@@ -17,6 +17,7 @@ public class OriginListController implements Action {
         int limit = 10;
         String find_field = null;//검색필드(board_title, board_cont)
         String find_name = null;//검색어
+        System.out.println("값은 넘어감?");
 
         if (request.getParameter("page") != null) {//get으로 전달된 쪽번호가 있는 경우 실행
             page = Integer.parseInt(request.getParameter("page"));//페이지 번호를 정수 숫자로 변경해서 저장.
@@ -36,7 +37,7 @@ public class OriginListController implements Action {
         ReplyDAOImpl rdao = new ReplyDAOImpl();
         int listcount = bdao.getListCount(findB);//검색 전 후 레코드 개수
         List<BoardVO> blist = bdao.getBoardList(page, limit, findB);//검색 전 후 목록
-        List<ReplyVO> rlist = rdao.getReplyList(findR);
+        //List<ReplyVO> rlist = rdao.getReplyList(findR);
 
         int maxpage = (int) ((double) listcount / limit + 0.95);//총 페이지 수
         int startpage = (((int) ((double) page / 10 + 0.9)) - 1) * 10 + 1;//시작페이지

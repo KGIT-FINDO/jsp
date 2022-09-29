@@ -1,4 +1,4 @@
-package board.OriginWrite;
+package board.originWrite.controller;
 
 import member.action.Action;
 import member.action.ActionForward;

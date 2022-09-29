@@ -1,6 +1,6 @@
 package board.OriginDel;
 
-import board.OriginWrite.BoardDAOImpl;
+import board.originWrite.BoardDAOImpl;
 import member.action.Action;
 import member.action.ActionForward;
 

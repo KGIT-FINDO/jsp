@@ -14,8 +14,8 @@
 		<div class="signup_complete_middle">
 			<p>회원가입이 완료되었습니다.</p>
 		</div>
-		<div class="signup_complete_middle_homebutton">
-			<a href="/front2/html/index.jsp"><button>HOME</button></a>
+		<div class="signup_complete_middle_homebutton" >
+			<a href="/front2/html/index.jsp"><button style="border-radius: 8px; background-color:#f0fdfc; padding: 16px 40px; border:1px;}">HOME</button></a>
 		</div>
 		<div class="signup_complete_bottom">
 			<li><a href="#">이용약관 </a> | </li>

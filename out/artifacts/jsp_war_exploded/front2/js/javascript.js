@@ -71,7 +71,7 @@ function signup_email_text_confirm() {
 			e.preventDefault(); // 서브밋 될때 화면이 깜빡이지 않게 방지
 
 			if (!signup_agreement_form_data['check1']) {
-				alert('네이버 이용약관 동의를 하지 않았습니다');
+				alert('핀도 이용약관 동의를 하지 않았습니다');
 				check1.parentNode.style.color = 'red';
 				return false;
 			}

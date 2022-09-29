@@ -96,7 +96,7 @@
 				</div>
 
 				<div class="signup_button">
-					<input type="submit" value="가입하기"  onclick="location.href='/front2/html/signup_complete.jsp';" />
+					<input type="submit" value="가입하기" />
 				</div>
 
 
