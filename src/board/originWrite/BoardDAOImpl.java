@@ -145,7 +145,7 @@ public class BoardDAOImpl {
             }else if(findB.getFind_field().equals("board_cont")) {//글내용을 검색할 경우
                 sql+=" where board_cont like ?";
             }
-            sql+=")) where rNum >= ? and rNum<=? order by board_no desc";
+            sql+="order by board_no desc)) where rNum >= ? and rNum<=?";
             /* 페이징과 검색관련 쿼리문. rowNum컬럼은 오라클에서 테이블 생성시 추가해 주는 컬럼으로 최초 레코드 저장시
              * 일련 번호값이 알아서 저장된다.rNum은 rowNum컬럼의 별칭이름이다.
              */

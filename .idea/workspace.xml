@@ -10,43 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f56adae9-30c8-4715-9a17-541c0af5eb7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stock/timetest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/html/index_board_del.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/html/logout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f9fc6942-97a0-4113-a4ae-403c88c19d1d.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/css/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index_BoardCont.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index_BoardCont.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index_Boardwrite.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index_Boardwrite.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index_board_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index_board_edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index_community.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/index_community.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/login_connect.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/login_connect.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signup.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signup_complete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/html/signup_complete.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/js/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/front2/js/javascript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/include/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_war_exploded/include/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/board/ContController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/ContController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/OriginDel/OriginDelOkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/OriginDel/OriginDelOkController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/OriginEdit/OriginEditOkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/originEdit/OriginEditOkController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/OriginList/OriginListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/originList/controller/OriginListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/OriginWrite/BoardDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/originWrite/BoardDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/OriginWrite/OriginWriteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/originWrite/controller/OriginWriteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/OriginWrite/OriginWriteOkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/originWrite/controller/OriginWriteOkController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/member/signUp/controller/SignUpOkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/member/signUp/controller/SignUpOkController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/daum.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/daum.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/board/originWrite/BoardDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/originWrite/BoardDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/front2/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/css/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front2/html/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/company_management_announcement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/company_management_announcement.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/front2/html/index_BoardCont.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/index_BoardCont.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front2/html/index_BoardWrite.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/index_BoardWrite.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/front2/html/index_board_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/index_board_edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front2/html/index_community.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/index_community.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front2/html/login_connect.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/login_connect.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front2/html/signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/signup.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front2/html/signup_complete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/signup_complete.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front2/js/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/js/javascript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/include/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/include/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/index_management.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/index_management.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front2/html/signin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front2/html/signin.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,7 +296,7 @@
       <workItem from="1664361559009" duration="13425000" />
       <workItem from="1664423274744" duration="7347000" />
       <workItem from="1664430768862" duration="8364000" />
-      <workItem from="1664439819690" duration="7768000" />
+      <workItem from="1664439819690" duration="13929000" />
     </task>
     <servers />
   </component>
@@ -338,5 +313,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/front2/html/index.jsp</url>
+          <line>50</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

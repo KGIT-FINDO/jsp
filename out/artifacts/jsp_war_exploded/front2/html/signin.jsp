@@ -52,10 +52,10 @@
 			
 			<%-- signin_law 전체를 움직이는 class --%>
 			<div class="signin_law">
-				<li><a href="#">이용약관 </a> | </li>
-				<li><a href="#">개인정보처리방침 </a> | </li>
-				<li><a href="#">책임의 한계와 법적고지 </a> | </li>
-				<li><a href="#">회원정보 고객센터</a></li>
+				<li><a href="/front2/html/company_using_law.jsp">이용약관 </a> | </li>
+				<li><a href="/front2/html/company_personal_info_law.jsp">개인정보처리방침 </a> | </li>
+				<li><a href="/front2/html/company_financial_transation_law.jsp">책임의 한계와 법적고지 </a> | </li>
+				<li><a href="/front2/html/index_faq.jsp">회원정보 고객센터</a></li>
 			</div>
 			
 			<div class="signin_copyright"> 

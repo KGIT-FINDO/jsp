@@ -7,19 +7,18 @@
 
         <div id="bWrite_wrap">
             <h3 class="bWrite_title">수정중</h3>
-            <form method="post" action="/board_edit_ok.do"
-                  onsubmit="return bw_check();">
+            <form method="post" action="/board_edit_ok.do">
                 <input type="hidden" name="board_no" value="${bc.board_no}"/>
                 <table id="bWrite_t">
                     <tr>
                         <th>제목</th>
-                        <td><input name="board_title" id="board_title" size="35" value="${b.board_title}"/></td>
+                        <td><input name="board_title" id="board_title" size="35" value="${bc.board_title}"/></td>
                     </tr>
 
                     <tr>
                         <th>내용</th>
                         <td><textarea name="board_cont" id="board_cont" rows="9"
-                                      cols="36" value="${b.board_cont}"></textarea></td>
+                                      cols="36" value="${bc.board_cont}"></textarea></td>
                     </tr>
                 </table>
                 <div id="bWrite_menu">

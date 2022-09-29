@@ -10,7 +10,7 @@
                     <th>글제목</th><td>${bc.board_title}</td>
                 </tr>
                 <tr>
-                    <th>글내용</th><td>${board_cont}</td>
+                    <th>글내용</th><td>${bc.board_cont}</td>
                 </tr>
                 <tr>
                     <th>조회수</th><td>${bc.board_hit}</td>

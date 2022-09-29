@@ -928,6 +928,100 @@
 }
 /* index_product_wrapper */
 
+/* index_management_wrapper */
+
+.index_management_wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-weight: 900;
+	margin-top: 5%;
+}
+
+.index_management_main_top {
+	width: 400px;
+	height: 300px;
+	background-image: url('../images/company5.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 16px 0px;
+	border-radius: 16px;
+}
+
+.index_management_main_middle_top {
+	width: 400px;
+	height: 300px;
+	background-image: url('../images/hand.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 16px 0px;
+	border-radius: 16px;
+}
+
+.index_management_main_middle_middle {
+	width: 400px;
+	height: 300px;
+	background-image: url('../images/yellow.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 16px 0px;
+	border-radius: 16px;
+}
+
+.index_management_main_middle_bottom {
+	width: 400px;
+	height: 300px;
+	background-image: url('../images/office.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 16px 0px;
+	border-radius: 16px;
+}
+
+.index_management_main_bottom_top {
+	width: 400px;
+	height: 300px;
+	background-image: url('../images/talk.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 16px 0px;
+	border-radius: 16px;
+}
+
+.index_management_main_bottom_middle {
+	width: 400px;
+	height: 300px;
+	background-image: url('../images/tok.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 16px 0px;
+	border-radius: 16px;
+}
+
+.index_management_main_bottom_bottom {
+	width: 400px;
+	height: 300px;
+	background-image: url('../images/newspaper.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 16px 0px;
+	border-radius: 16px;
+}
+
+.index_management_advertisement {
+	width: 400px;
+	height: 300px;
+	background-image: url('../images/company3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 16px 0px;
+	border-radius: 16px;
+}
+
+
+/* index_management_wrapper */
 /* index.jsp slide show css */
 
 

@@ -36,8 +36,6 @@ public class ContController implements Action {
         String id = (String) session.getAttribute("id");
         String board_name = request.getParameter("board_name");
 
-        out.println(id);
-        out.println(board_name);
 
         request.setAttribute("bc", bc);
         request.setAttribute("page", page);//책갈피 기능 때문에 쪽번호 저장
@@ -49,19 +47,7 @@ public class ContController implements Action {
         if(state.equals("cont")){//내용보기
             forward.setPath("./front2/html/index_BoardCont.jsp"); //뷰페이지 경로 설정
         } else if(state.equals("edit")){//수정폼
-            if(id== null){
-                out.println("<script>");
-                out.println("alert('로그인하세요.')");
-                out.println("history.back();");
-                out.println("</script>");
-            } else if (!id.equals(board_name)) {
-                out.println("<script>");
-                out.println("alert('권한이 없습니다.')");
-                out.println("history.back();");
-                out.println("</script>");
-            } else{
-                forward.setPath("/front2/html/index_board_edit.jsp");
-            }
+            forward.setPath("/front2/html/index_board_edit.jsp");
         }else if(state.equals("del")) {//삭제폼
             if(id== null){
                 out.println("<script>");
